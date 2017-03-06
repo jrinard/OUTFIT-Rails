@@ -9,8 +9,8 @@
   <body>
 
     <nav class = "nav navbar navbar-inverse shift ">
-      <a href="/"><span class="brand">Clothing</span> </a> |
-      <%= link_to "Gallery", pictures_path %>
+      <a href="/"><span class="brand">Clothing</span> </a>
+
         <div class="pull-right shift">
         <% if current_user %>
           <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
@@ -24,8 +24,20 @@
       </div>
     </nav>
     <div class="container">
+
+
       <%= flash[:notice] %>
       <%= yield %>
+
+      <div class="control-panel">
+        <a href="/"><span class="brand">Home</span> </a> |
+
+        <%= link_to "New Picture", new_picture_path %> |
+          <%= link_to "Favorites", pictures_path %> |
+          <%= link_to "Closet", pictures_path %>
+
+      </div>
+
     </div>
 
   </body>

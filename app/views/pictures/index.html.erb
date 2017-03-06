@@ -1,7 +1,5 @@
 <h1>Gallery</h1>
 
-<%= link_to "New Picture", new_picture_path %>
-
 <% if @pictures.any? %>
 <% @pictures.each do |picture| %>
   <div class="well">
