@@ -5,17 +5,20 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
+      <div class="container">
 
     <nav class = "navbar-custom shift ">
       <a href="/"><span class="logo">Clothing</span> </a>
 
-        <div class="pull-right shift">
+        <div class="pull-right shift login-text">
         <% if current_user %>
           <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
           <span class="white"><%= current_user.username %></span> |
-          <%= link_to "Log-out", destroy_user_session_path, method: "delete" %>
+          <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
         <% else %>
           <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
           <%= link_to "Log-in", new_user_session_path %></a> |
@@ -23,18 +26,19 @@
         <% end %>
       </div>
     </nav>
-    <div class="container">
+
 
 
       <%= flash[:notice] %>
       <%= yield %>
 
-    </div>
+
           <div class="control-panel control-text">
             <%= link_to "Home", root_path %>
             <%= link_to image_tag("button.png", :class => "button"), new_picture_path %>
             <%= link_to "Fav", pictures_path %>
             <%= link_to "Closet", pictures_path %>
           </div>
+              </div>
   </body>
 </html>

@@ -2,17 +2,22 @@
 @import "bootstrap";
 
 
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 li {
   list-style-type: none;
 }
 
 .well {
+  max-width: 400px;
 
 }
 
 
 .image-size {
-  max-width: 200px;
+
 }
 
 .navbar{
@@ -95,6 +100,7 @@ a:link {
   background-color: #fff;
   height: 130px;
   font-size: 50px;
+  padding-top: 25px;
 }
 body {
   background-color: #888;
@@ -123,4 +129,15 @@ body {
 }
 
 .form {
+}
+
+.container {
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+  padding: 0;
+}
+.login-text {
+  font-size: .5em;
+  padding-top: 20px;
 }

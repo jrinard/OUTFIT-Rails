@@ -1,15 +1,20 @@
-<h1>Gallery</h1>
+<div class="col-sm-12 col-md-6">
 
-<% if @pictures.any? %>
-<% @pictures.each do |picture| %>
-  <div class="well">
-  <li><%= image_tag picture.image, :class => "image-size" %></li>
-  <li><%= picture.title %></li>
-  <li><%= picture.description %></li>
-  <li><%= link_to "Details", picture_path(picture)  %></li>
+  <h1>Gallery</h1>
 
-  </div>
-<% end %>
-<% else %>
-  <li>There are no pictures yet!</li>
-<% end %>
+  <% if @pictures.any? %>
+  <% @pictures.each do |picture| %>
+    <div class="well">
+    <li><%= image_tag picture.image, :class => "image-size img-responsive" %></li>
+    <li><%= picture.title %></li>
+    <li><%= picture.description %></li>
+    <li><%= link_to "Details", picture_path(picture)  %></li>
+
+    </div>
+  <% end %>
+  <% else %>
+    <li>There are no pictures yet!</li>
+  <% end %>
+
+
+</div>
