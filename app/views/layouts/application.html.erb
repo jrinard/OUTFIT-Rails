@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pictogram</title>
+    <title>Clothing</title>
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
   <body>
 
-
-
     <nav class = "nav navbar navbar-inverse shift ">
-      <a href="/"><span class="brand">Pictogram</span> </a> |
+      <a href="/"><span class="brand">Clothing</span> </a> |
       <%= link_to "Gallery", pictures_path %>
         <div class="pull-right shift">
         <% if current_user %>
@@ -29,6 +27,6 @@
       <%= flash[:notice] %>
       <%= yield %>
     </div>
-    
+
   </body>
 </html>
