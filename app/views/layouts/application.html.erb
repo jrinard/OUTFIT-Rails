@@ -8,8 +8,8 @@
   </head>
   <body>
 
-    <nav class = "nav navbar navbar-inverse shift ">
-      <a href="/"><span class="brand">Clothing</span> </a>
+    <nav class = "navbar-custom shift ">
+      <a href="/"><span class="logo">Clothing</span> </a>
 
         <div class="pull-right shift">
         <% if current_user %>
@@ -29,16 +29,12 @@
       <%= flash[:notice] %>
       <%= yield %>
 
-      <div class="control-panel">
-        <a href="/"><span class="brand">Home</span> </a> |
-
-        <%= link_to "New Picture", new_picture_path %> |
-          <%= link_to "Favorites", pictures_path %> |
-          <%= link_to "Closet", pictures_path %>
-
-      </div>
-
     </div>
-
+          <div class="control-panel control-text">
+            <a href="/"><span class="brand">Home</span> </a> |
+            <%= link_to "New Picture", new_picture_path %> |
+            <%= link_to "Favorites", pictures_path %> |
+            <%= link_to "Closet", pictures_path %>
+          </div>
   </body>
 </html>
