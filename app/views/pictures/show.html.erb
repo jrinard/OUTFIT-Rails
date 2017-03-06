@@ -1,6 +1,29 @@
+
+<h1>Add Outfit Details</h1>
+<%= render "form-details" %>
+
+<br>
+
+<div class="well">
+<li><%= image_tag @picture.image, :class => "image-size" %></li>
+<li>Title: <%=link_to @picture.title, picture_path(@picture)  %></li>
+<li>Description: <%= @picture.description %></li>
+<li>Body: <%= @picture.body %></li>
+<li>Legs: <%= @picture.legs %></li>
+<li>Feet: <%= @picture.feet %></li>
+<li>Hands: <%= @picture.hands %></li>
+<li>Head: <%= @picture.head %></li>
+<li>Extra: <%= @picture.extra %></li>
+
+</div>
+
+
+<hr><hr><hr>
+
+
 Title: <%= @picture.title %><br>
 Task Id: <%= @task_id %>
-<hr>
+
 
 <% if @details %>
 <%# @details['task']['data']['boxes'].to_a[0][0]%><br><br>

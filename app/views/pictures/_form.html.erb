@@ -1,7 +1,7 @@
 <%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
-<%= f.text_field :title, :placeholder => 'Title' %>
-<%= f.text_field :description, :placeholder => 'Description' %>
+<%= f.text_field :title, :placeholder => 'Title', :class => 'form-control' %>
+<%= f.text_field :description, :placeholder => 'Description', :class => 'form-control' %>
 <%= f.hidden_field :user_id, :value => current_user.id %>
-<%= f.file_field :image, :placeholder => 'Image' %>
-<%= f.submit %>
+<%= f.file_field :image, :placeholder => 'Image', :class => 'form-control' %>
+<%= f.submit :class => "btn btn-primary"%>
 <% end %>

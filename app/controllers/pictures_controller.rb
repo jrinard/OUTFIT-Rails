@@ -1,9 +1,8 @@
 class PicturesController < ApplicationController
 
 def index
-
   @user = current_user
-    @pictures = @user.pictures
+  @pictures = @user.pictures
 end
 
 def show
@@ -33,17 +32,27 @@ def create
 end
 
 def edit
+   @picture = Picture.find(params[:id])
+   @user = current_user
 end
 
 def update
-end
+  @picture = Picture.find(params[:id])
+    if @picture.update(picture_params)
+      flash[:notice] = "Picture updated!"
+      redirect_to pictures_path
+    else
+      render :edit
+    end
+  end
 
 def destroy
 end
 
 def picture_params
-   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id)
+   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra)
 end
+
 
 
 end
