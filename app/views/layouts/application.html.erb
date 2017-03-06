@@ -10,11 +10,16 @@
   </head>
   <body>
       <div class="container">
+<div class="row">
 
-    <nav class = "navbar-custom shift ">
+
+<div class="col-sm-12 col-md-6">
+    <nav class = "navbar-custom shift">
       <a href="/"><span class="logo">Clothing</span> </a>
 
-        <div class="pull-right shift login-text">
+    </div> <!-- col end -->
+  <div class="col-sm-12 col-md-6">
+        <div class="pull-right shift login-text navbar-custom ">
         <% if current_user %>
           <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
           <span class="white"><%= current_user.username %></span> |
@@ -24,21 +29,22 @@
           <%= link_to "Log-in", new_user_session_path %></a> |
           <%= link_to "Signup", new_user_registration_path %></a>
         <% end %>
-      </div>
+      </div> <!-- login end -->
     </nav>
-
-
-
+  </div> <!-- col end -->
       <%= flash[:notice] %>
       <%= yield %>
-
-
+      <div class="col-sm-12">
           <div class="control-panel control-text">
+            <div class="img-responsive">
             <%= link_to "Home", root_path %>
             <%= link_to image_tag("button.png", :class => "button"), new_picture_path %>
             <%= link_to "Fav", pictures_path %>
             <%= link_to "Closet", pictures_path %>
           </div>
-              </div>
+        </div><!-- control panel end -->
+      </div> <!-- col end -->
+      </div> <!-- row end -->
+    </div><!-- container end -->
   </body>
 </html>

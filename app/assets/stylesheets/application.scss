@@ -4,6 +4,8 @@
 
 * {
   font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 li {
@@ -11,12 +13,7 @@ li {
 }
 
 .well {
-  max-width: 400px;
-
-}
-
-
-.image-size {
+  max-width: 100%;
 
 }
 
@@ -92,33 +89,27 @@ a:link {
 }
 
 
-.nav {
-  font-size: 50px;
-}
-
-.navbar-custom {
-  background-color: #fff;
-  height: 130px;
-  font-size: 50px;
-  padding-top: 25px;
-}
 body {
   background-color: #888;
+  min-height: 300px;
 }
+
+//CONTROL PANEL
 .control-panel {
   background-color: #fff;
   height: 120px;
-  position : absolute;
-  bottom : 0;
   width: 100%;
-  margin: auto;
   text-align: center;
   margin-top:200px;
-}
+  position: fixed;
+        bottom: 0;
 
+}
 .control-text {
   font-size: 50px;
 }
+
+//FORM TEXT
 .input-lg {
   font-size: 50px;
   height: 100px;
@@ -128,16 +119,40 @@ body {
   margin: 15px;
 }
 
-.form {
-}
+
 
 .container {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   padding: 0;
+
 }
+
+// TOP NAVIGATION
+
+.nav {
+  // font-size: 50px;
+}
+
+.navbar-custom {
+  background-color: #fff;
+  height: 130px;
+  padding-top: 25px;
+
+  text-align: center;
+}
+
+.logo {
+
+  font-size: 50px;
+  margin:auto;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .login-text {
-  font-size: .5em;
   padding-top: 20px;
+  font-size: 20px;
+  width: 100%;
 }
