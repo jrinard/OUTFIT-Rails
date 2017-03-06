@@ -14,7 +14,7 @@
         <div class="pull-right shift">
         <% if current_user %>
           <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
-          <span class="white"><%= current_user.email %></span> |
+          <span class="white"><%= current_user.username %></span> |
           <%= link_to "Log-out", destroy_user_session_path, method: "delete" %>
         <% else %>
           <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>

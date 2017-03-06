@@ -41,7 +41,7 @@ def destroy
 end
 
 def picture_params
-   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id => current_user.id )
+   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id)
 end
 
 
