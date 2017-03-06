@@ -31,9 +31,9 @@
 
     </div>
           <div class="control-panel control-text">
-            <a href="/"><span class="brand">Home</span> </a> |
-            <%= link_to "New Picture", new_picture_path %> |
-            <%= link_to "Favorites", pictures_path %> |
+            <%= link_to "Home", root_path %>
+            <%= link_to image_tag("button.png", :class => "button"), new_picture_path %>
+            <%= link_to "Fav", pictures_path %>
             <%= link_to "Closet", pictures_path %>
           </div>
   </body>

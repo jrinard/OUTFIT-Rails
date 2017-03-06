@@ -25,16 +25,18 @@ Title: <%= @picture.title %><br>
 Task Id: <%= @task_id %>
 
 
-<% if @details %>
+<% if @details%>
 <%# @details['task']['data']['boxes'].to_a[0][0]%><br><br>
 
-  <% @kevin = @details['task']['data']['boxes'].map %><br><br>
-  <%= @kevin.each do |k| %>
+<% if @details['task']['data'] %>
+  <% @test = @details['task']['data']['boxes'].map %><br><br>
+  <%= @test.each do |k| %>
     <%= k.to_a[0] %><br>
   <% end %>
-
+  <% else %>
+  Fashion needs to be attached to analyze it
 <% end %>
-
+<% end %>
 
 <hr>
 <%= link_to "Task", :get_task => "Get_Task", :class => "btn" %>

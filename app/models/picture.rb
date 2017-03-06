@@ -3,7 +3,7 @@ class Picture < ApplicationRecord
   acts_as_votable
   validates :title, :presence => true
 
-  has_attached_file :image, styles: { medium: "350x350>" }, default_url: "/images/:style/missing.png"
+  has_attached_file :image, styles: { medium: "350x350>" }, default_url: "missing.png"
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
 
   def get_task
