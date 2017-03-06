@@ -1,0 +1,7 @@
+<%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
+<%= f.text_field :title, :placeholder => 'Title' %>
+<%= f.text_field :description, :placeholder => 'Description' %>
+<%= f.text_field :url, :placeholder => 'URL' %>
+<%= f.file_field :image, :placeholder => 'Image' %>
+<%= f.submit %>
+<% end %>

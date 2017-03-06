@@ -1,0 +1,22 @@
+Title: <%= @picture.title %><br>
+Task Id: <%= @task_id %>
+<hr>
+
+<% if @details %>
+<%# @details['task']['data']['boxes'].to_a[0][0]%><br><br>
+
+  <% @kevin = @details['task']['data']['boxes'].map %><br><br>
+  <%= @kevin.each do |k| %>
+    <%= k.to_a[0] %><br>
+  <% end %>
+
+<% end %>
+
+
+<hr>
+<%= link_to "Task", :get_task => "Get_Task", :class => "btn" %>
+<%= link_to "Analyze", :get_details => "AnalyzePhoto", :class => "btn" %>
+<hr>
+<h4>
+<%= @details%><br>
+</h4>
