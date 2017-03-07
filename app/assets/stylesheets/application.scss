@@ -112,7 +112,13 @@ body {
 //FORM TEXT
 .input-lg {
   font-size: 50px;
-  height: 100px;
+  height: 70px;
+}
+
+.btn-lg {
+  height: 80px;
+  width: 200px;
+  text-align: center;
 }
 
 .field {
@@ -133,18 +139,17 @@ body {
 
 .nav {
   // font-size: 50px;
+  width: 100%;
 }
 
 .navbar-custom {
   background-color: #fff;
   height: 130px;
   padding-top: 25px;
-
   text-align: center;
 }
 
 .logo {
-
   font-size: 50px;
   margin:auto;
   margin-left: 0px;
@@ -154,5 +159,8 @@ body {
 .login-text {
   padding-top: 20px;
   font-size: 20px;
-  width: 100%;
+}
+
+.center {
+  text-align: center;
 }

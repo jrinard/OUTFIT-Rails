@@ -1,11 +1,14 @@
 
-<h1>Add Outfit Details</h1>
-<%= render "form-details" %>
 
-<br>
+<div class="col-sm-12 col-md-6">
+<div class="well">
+  <h1>Add Outfit Details</h1>
+  <%= render "form-details" %>
+  <br>
+</div><!-- well end -->
 
 <div class="well">
-<li><%= image_tag @picture.image, :class => "image-size" %></li>
+<li><%= image_tag @picture.image, :class => "image-size img-responsive" %></li>
 <li>Title: <%=link_to @picture.title, picture_path(@picture)  %></li>
 <% if @picture.description %>
   <li>Description: <%= @picture.description %></li>
@@ -29,8 +32,7 @@
   <li>Extra: <%= @picture.extra %></li>
 <% end %>
 </div>
-
-
+</div> <!-- col end -->
 <hr>
 
 
