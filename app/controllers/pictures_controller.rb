@@ -58,6 +58,7 @@ end
 # end
 
 def edit
+   @picture = Picture.new
    @picture = Picture.find(params[:id])
    @user = current_user
 end

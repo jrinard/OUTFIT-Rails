@@ -8,27 +8,27 @@
 </div><!-- well end -->
 
 <div class="well">
-<li><%= image_tag @picture.image, :class => "image-size img-responsive" %></li>
+<li><%# image_tag @picture.image, :class => "image-size img-responsive" %></li>
 <li>Title: <%=link_to @picture.title, picture_path(@picture)  %></li>
-<% if @picture.description %>
+<% if @picture.description != ""  %>
   <li>Description: <%= @picture.description %></li>
 <% end %>
-<% if @picture.body %>
+<% if @picture.body != ""  %>
   <li>Body: <%= @picture.body %></li>
 <% end %>
-<% if @picture.legs %>
+<% if @picture.legs != ""  %>
   <li>Legs: <%= @picture.legs %></li>
 <% end %>
-<% if @picture.feet %>
+<% if @picture.feet != ""  %>
   <li>Feet: <%= @picture.feet %></li>
 <% end %>
-<% if @picture.hands %>
+<% if @picture.hands != ""  %>
   <li>Hands: <%= @picture.hands %></li>
 <% end %>
-<% if @picture.head %>
+<% if @picture.head != ""  %>
   <li>Head: <%= @picture.head %></li>
 <% end %>
-<% if @picture.extra %>
+<% if @picture.extra != ""  %>
   <li>Extra: <%= @picture.extra %></li>
 <% end %>
 </div>

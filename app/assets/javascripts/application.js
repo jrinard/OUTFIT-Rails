@@ -15,3 +15,13 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(document).ready(function() {
+
+  $(".toggle").click(function() {
+    console.log("Details now showing");
+    $("#details").toggle();
+  });
+
+
+});
