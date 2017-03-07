@@ -9,12 +9,14 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
+    <%# image_tag("bg.jpg", :class => "bg img-responsive") %>
       <div class="container">
+
 <div class="row">
 
 <div class="col-sm-12">
     <nav class = "nav navbar-custom shift">
-      <a href="/"><span class="logo shift-right">Clothing</span> </a>
+      <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
       <% if current_user %>
         <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% else %>
@@ -44,7 +46,6 @@
 
 
 
-
       <%= flash[:notice] %>
       <%= yield %>
       <div class="col-sm-12">
@@ -53,7 +54,7 @@
             <%= link_to image_tag("btn-home.png", :class => ""), root_path %>
             <%= link_to image_tag("btn-photo.png", :class => ""), new_picture_path %>
             <%= link_to image_tag("btn-closet.png", :class => ""), pictures_path %>
-        
+
           </div>
         </div><!-- control panel end -->
       </div> <!-- col end -->
