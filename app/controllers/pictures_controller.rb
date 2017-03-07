@@ -5,8 +5,6 @@ class PicturesController < ApplicationController
 def index
   @user = current_user
   @pictures = @user.pictures
-
-
 end
 
 def show
@@ -29,11 +27,26 @@ def create
    @picture = Picture.new(picture_params)
    if @picture.save
      flash[:notice] = "Picture Saved!"
-     redirect_to root_path
+     redirect_to pictures_path
    else
      render :new
    end
 end
+
+# def create
+#    @user = current_user
+#    @picture = Picture.new(picture_params)
+#    respond_to do |format|
+#    if @picture.save
+#      format.html flash[:notice] = "Picture Saved!"
+#      format.js
+#     #  redirect_to pictures_path
+#    else
+#      format.html {render :new, notice: 'There was an error.'}
+#      format.js { redirect_back(fallback_location: pictures_path, notice: 'There was an error.') }
+#     end
+#    end
+# end
 
 def edit
    @picture = Picture.find(params[:id])

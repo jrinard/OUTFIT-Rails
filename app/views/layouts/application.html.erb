@@ -45,11 +45,13 @@
 </div> <!-- col end -->
 
 
-
-      <%= flash[:notice] %>
+<div class="col-sm-12">
+  <%= flash[:notice] %>
+</div>
       <%= yield %>
       <div class="col-sm-12">
           <div class="control-panel control-text">
+            <div class="notice"></div>
             <div class="img-responsive">
             <%= link_to image_tag("btn-home.png", :class => "btn"), root_path %>
             <%= link_to image_tag("btn-photo.png", :class => "btn"), new_picture_path %>

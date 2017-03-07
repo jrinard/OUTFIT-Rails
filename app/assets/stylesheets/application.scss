@@ -17,7 +17,7 @@ li {
   list-style-type: none;
 }
 
-h1 {
+h1, h2, h3 {
   color: #fff;
 }
 
@@ -25,6 +25,7 @@ h1 {
   margin-left: 15px;
   margin-right: 25px;
   border-radius: 8px;
+  max-width: 500px;
 }
 
 // .bar {
@@ -43,7 +44,7 @@ body {
   // background-image: url("bg.jpg");
   margin-right: -10px;
   height: 100%;
-  background: linear-gradient(to bottom, #312f64 , #1680b1);
+  background: linear-gradient(to bottom, #413f7a , #1680b1);
   min-height: 800px;
 }
 
@@ -71,32 +72,26 @@ body {
 
 //TOP NAVIGATION
 .navbar a:link {
-  color: #fff;
+  color: #000;
   font-size: 1em;
   text-decoration: none;
 }
 .navbar a:hover {
-  color: #fff;
+  color: #000;
   background-color: #000;
   font-size: 1em;
   text-decoration: none;
 }
 .navbar a:visited {
-  color: #fff;
+  color: #000;
   font-size: 1em;
   text-decoration: none;
 }
 .navbar a:active {
-  color: #fff;
+  color: #000;
   font-size: 1em;
   text-decoration: none;
 }
-
-// .row {
-//   margin-right: -10px;
-//   margin-left: -10px;
-//
-// }
 
 .nav {
   // font-size: 50px;
@@ -148,7 +143,7 @@ a:hover {
   text-decoration: none;
 }
 a:link {
- color: #F5B041;
+ color: #df5488;
  font-size: 1em;
 }
 
@@ -174,7 +169,7 @@ a:link {
 
 // FORM TEXT
 .input-lg {
-  font-size: 20px;
+  font-size: 18px;
   height: 30px;
 }
 
@@ -195,7 +190,6 @@ a:link {
 
 .form-text-small {
   font-size: 15px;
-  text-align: center;
 }
 
 .login-text {
@@ -212,10 +206,19 @@ a:link {
   width: 200px;
 }
 
+.center-image-button {
+  // text-align: center;
+  width: 250px;
+  margin: 0 auto;
+}
+
+
+
 input[type=file] {
-  transform: scale(1.5);
-  margin-left: 100px;
+  transform: scale(1.2);
+  // margin-left: 100px;
   padding: 10px;
+
 }
 // Big Checkbox
 input[type=checkbox] {
@@ -224,9 +227,47 @@ input[type=checkbox] {
 }
 
 
-
-
 input[type="image"]
 {
   background:url(btn-closet.png);
+}
+
+
+//HIDING IMAGE UPLOAD
+// #hide input[type=file] {
+// display:none;
+// margin:10px;
+// }
+
+
+
+
+//PICTURE
+.title {
+  font-size: 2em;
+}
+.description {
+  font-style: italic;
+  color: #777;
+}
+
+#block1 {
+  // background-color: #d2d2d2;
+  width: 50%;
+  margin-top: 0;
+  float:left;
+}
+
+#block2 {
+  background-color: #999;
+  width: 50%;
+  margin-top: 0;
+  margin-left: 50%;
+  padding-top: 10px;
+  // float: right;
+}
+
+#block-bottom {
+  text-align: center;
+  clear: both;
 }
