@@ -3,9 +3,11 @@
 <div class="col-sm-12 col-md-6">
 
   <%= render "form-details" %>
-  <%= link_to "Delete", picture_path(@picture),:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
 
 <div class="well">
+  <div class="pull-right pink">
+    <%= link_to "Delete Picture", picture_path(@picture), :class => "btn-lg",:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
+  </div>
   <div id="details">
     <% if @picture.body != "" %>
       <span class="type">Body:</span> <span class="detail"><%= @picture.body %></span><br>
