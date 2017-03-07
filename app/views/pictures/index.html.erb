@@ -1,17 +1,20 @@
-<div class="col-sm-12 col-md-6">
-  <h1>Your Closet</h1>
-
+  <div class="col-sm-12">  <!-- may not need -->
+    <h1 class="center">Your Closet</h1>
     <%= link_to "Favorites Toggle", pictures_path %>
+  </div>
+
   <% if @pictures.any? %>
   <% @pictures.each do |picture| %>
+  <div class="col-sm-12 col-md-6">
     <div class="well">
     <li><%= image_tag picture.image, :class => "image-size img-responsive" %></li>
     <li><%= picture.title %></li>
     <li><%= picture.description %></li>
     <li><%= link_to "Details", picture_path(picture)  %></li>
     </div>
+    </div>
   <% end %>
   <% else %>
     <li>There are no pictures yet!</li>
+    </div>
   <% end %>
-</div>
