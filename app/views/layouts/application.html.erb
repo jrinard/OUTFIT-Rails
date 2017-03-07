@@ -15,12 +15,12 @@
 <div class="row">
 
 <div class="col-sm-12">
-    <nav class = "nav navbar-custom shift">
+    <nav class = "nav navbar-custom btn">
       <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
       <% if current_user %>
         <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% else %>
-        <%= link_to image_tag("menu.png", :class => "pull-right"), :logout => "logout" %>
+        <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% end %>
 </div> <!-- col end -->
 
