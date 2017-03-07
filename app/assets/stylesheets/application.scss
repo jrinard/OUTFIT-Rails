@@ -69,7 +69,7 @@ a:visited {
   font-size: 1.5em;
 }
 a:hover {
-  color: #F5B041;
+  color: #df5488;
   font-size: 1.5em;
   text-decoration: none;
 }
@@ -106,7 +106,7 @@ body {
     min-height: 300px;
 }
 
-//CONTROL PANEL
+// CONTROL PANEL
 .control-panel {
   // background-color: #fff;
   height: 120px;
@@ -121,15 +121,16 @@ body {
   font-size: 50px;
 }
 
-//FORM TEXT
+// FORM TEXT
 .input-lg {
   font-size: 30px;
   height: 50px;
 }
 
 .btn-lg {
-  height: 80px;
-  width: 200px;
+  height: 60px;
+  width: 140px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -137,20 +138,50 @@ body {
   margin: 15px;
 }
 
+.form-text-regular {
+  font-size: 25px;
+}
+
+.form-text-small {
+  font-size: 20px;
+  text-align: center;
+}
 
 .container {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   padding: 0;
-
 }
-
 
 .login-text {
   padding-top: 20px;
   font-size: 20px;
 }
+
+.btn-image {
+  height: 50px;
+  font-size: 20px;
+}
+
+input[type=file] {
+  transform: scale(1.5);
+  margin-left: 100px;
+  padding: 10px;
+}
+// Big Checkbox
+input[type=checkbox] {
+  transform: scale(1.5);
+  margin: 10px;
+}
+
+
+
+
+
+
+
+
 
 // TOP NAVIGATION
 
@@ -174,7 +205,12 @@ body {
   padding-bottom: 5px;
 }
 
-
 .center {
   text-align: center;
+}
+
+
+input[type="image"]
+{
+  background:url(btn-closet.png);
 }

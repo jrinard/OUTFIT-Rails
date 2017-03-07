@@ -38092,3 +38092,1981 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 36ms (Views: 33.7ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/" for ::1 at 2017-03-06 21:02:35 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:02:42 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:03:02 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:03:26 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:03:42 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:04:04 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:04:10 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:05:23 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:05:40 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 40.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:05:54 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:06:03 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 42ms (Views: 40.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:08:05 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:15:29 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 100ms (Views: 98.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:15:53 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 51.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:17:17 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 110ms (Views: 107.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:17:40 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:09 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 98ms (Views: 95.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:18 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:20 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:21 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 36.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:21 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:46 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 43.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:18:47 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 33.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:19:59 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 42.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:20:53 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1163ms (Views: 1161.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:20:56 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 35.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:01 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 1192ms (Views: 1189.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:21:14 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.5ms)
+  Rendered pictures/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 46ms (Views: 42.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:15 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:22 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1239ms (Views: 1236.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:23 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 53ms (Views: 49.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:26 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 36.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:21:26 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.6ms)
+  Rendered pictures/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 42ms (Views: 38.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:21:27 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 43ms (Views: 39.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:21:31 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1235ms (Views: 1231.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:21:33 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 34.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:35 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:21:37 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 43ms (Views: 37.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:21:40 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.7ms)
+  Rendered pictures/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:41 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:21:46 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 44ms (Views: 42.1ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+Started GET "/" for ::1 at 2017-03-06 21:21:58 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 349ms (Views: 329.8ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/?logout=logout" for ::1 at 2017-03-06 21:22:04 -0800
+Processing by HomeController#index as HTML
+  Parameters: {"logout"=>"logout"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-03-06 21:22:05 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SxyhvZ8WPMssVt6Ae+DzNILPg+1UPqS2Aq0aDzfGtZjRsItuyXvcUtMbOVzR57vZ37VVjfh220SwmOlLl3cm7g=="}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 14ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:22:05 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:22:05 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 81ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:22:32 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 1426ms (Views: 1404.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:23:10 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:23:47 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1188ms (Views: 1187.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:23:49 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:03 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1187ms (Views: 1185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:05 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:06 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:06 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 38ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:06 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 45ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:06 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 62ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:07 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:12 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 1228ms (Views: 1227.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:19 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1238ms (Views: 1237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:22 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1108ms (Views: 1106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:29 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1110ms (Views: 1108.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:36 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1217ms (Views: 1215.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:25:51 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:26:09 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:26:19 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:26:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1134ms (Views: 1133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:27:07 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1304ms (Views: 1303.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:27:30 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1065ms (Views: 1063.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:27:38 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1178ms (Views: 1177.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:27:45 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 1128ms (Views: 1127.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:27:50 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1113ms (Views: 1112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:28:23 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:28:27 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:28:45 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/devise/shared/_links.html.erb:6: syntax error, unexpected &, expecting keyword_end
+...fer.safe_append=' | '.freeze; &nbps ;@output_buffer.safe_app...
+...                               ^):
+  
+app/views/devise/shared/_links.html.erb:6: syntax error, unexpected &, expecting keyword_end
+app/views/devise/sessions/new.html.erb:25:in `_app_views_devise_sessions_new_html_erb___3026780415320103989_70133537988180'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.6ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (46.7ms)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:28:52 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:29:03 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:29:05 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:29:05 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:30:40 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:30:40 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:31:28 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1162ms (Views: 1161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:39 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:41 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:50 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 1057ms (Views: 1056.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.5ms)
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:32:56 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 5011ms (Views: 5010.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5323ms (Views: 5321.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5315ms (Views: 5314.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 5189ms (Views: 5187.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 4769ms (Views: 4768.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:33:20 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1237ms (Views: 1235.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:33:29 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:33:45 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1487ms (Views: 1486.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:02 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1096ms (Views: 1095.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:08 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1306ms (Views: 1305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:34:24 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:24 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in?logout=logout" for ::1 at 2017-03-06 21:34:26 -0800
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"logout"=>"logout"}
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 73ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:34:30 -0800
+Processing by PicturesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:30 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 41ms (Views: 39.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:34:32 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:32 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:34:38 -0800
+Processing by PicturesController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:34:38 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 38ms (Views: 37.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:35:09 -0800
+Processing by PicturesController#new as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:35:09 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:35:46 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1158ms (Views: 1157.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:35:51 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:35:51 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-03-06 21:35:53 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gCw0LANMihM1uVBB+FHYgWug56IXZ8IkHmVuzKTl5cEE8ftiy9lHPZS1dbGJ7dmd8/BlczHK0ggIzvhTeFn3iQ==", "user"=>{"email"=>"j@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "j@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-03-07 05:35:53 UTC], ["last_sign_in_at", 2017-03-07 04:30:44 UTC], ["sign_in_count", 27], ["updated_at", 2017-03-07 05:35:53 UTC], ["id", 1]]
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 137ms (ActiveRecord: 2.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:35:53 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 28.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:35:55 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/?logout=logout" for ::1 at 2017-03-06 21:35:57 -0800
+Processing by HomeController#index as HTML
+  Parameters: {"logout"=>"logout"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 30.4ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/users/sign_out" for ::1 at 2017-03-06 21:35:58 -0800
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pFBwWvEpnec45BDVrvIqw2p2Ca/K3nH3hxgSicfa0mdT1IhY7OPuzMWOZYeyhDtXC7Z+XWdmiycfE8hRluiADQ=="}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 5ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:35:58 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:35:58 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 48ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:36:05 -0800
+Processing by HomeController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:36:05 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 43ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:36:09 -0800
+Processing by PicturesController#index as HTML
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2017-03-06 21:36:09 -0800
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (0.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for ::1 at 2017-03-06 21:36:11 -0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cUHue9W+sKNqIqIYo3xXkQ0M4hBCgYTQUwkTO6nGxHU6LDBIfq7BUptuOEbud3l0xEqUQI2DaKldnyR25wpl4A==", "user"=>{"email"=>"j@email.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "j@email.com"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "current_sign_in_at" = $1, "last_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["current_sign_in_at", 2017-03-07 05:36:11 UTC], ["last_sign_in_at", 2017-03-07 05:35:53 UTC], ["sign_in_count", 28], ["updated_at", 2017-03-07 05:36:11 UTC], ["id", 1]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pictures
+Completed 302 Found in 125ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:36:11 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 46ms (Views: 33.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:36:14 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 37ms (Views: 32.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:36:15 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.8ms)
+  Rendered pictures/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 57ms (Views: 41.0ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:36:36 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.3ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 34ms (Views: 32.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:37:46 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:38:19 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:38:32 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:16 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.5ms)
+  Rendered pictures/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:17: syntax error, unexpected ':', expecting ')'
+...buffer.append=( f.submit "Go" :class => "btn btn-primary");@...
+...                               ^):
+  
+app/views/pictures/_form.html.erb:17: syntax error, unexpected ':', expecting ')'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133557986940'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.2ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.7ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:23 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 33ms (Views: 30.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:42 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.6ms)
+  Rendered pictures/new.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:14: syntax error, unexpected ':', expecting ')'
+...=( f.file_field :image,"Save" :placeholder => 'Image', :clas...
+...                               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+..."Save" :placeholder => 'Image', :class => 'form-control' );@...
+...                               ^):
+  
+app/views/pictures/_form.html.erb:14: syntax error, unexpected ':', expecting ')'
+app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133799128560'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.6ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:47 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.8ms)
+  Rendered pictures/new.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (3 for 1..2)):
+    11:     <%= f.hidden_field :user_id, :value => current_user.id %>
+    12:   </div>
+    13:   <div class="form-group">
+    14:     <%= f.file_field :image,"Save", :placeholder => 'Image', :class => 'form-control' %>
+    15:   </div>
+    16:   <div class="form-group">
+    17:     <%= f.submit "Save", :class => "btn btn-primary"%>
+  
+app/views/pictures/_form.html.erb:14:in `block in _app_views_pictures__form_html_erb__1806195700680059239_70133734775380'
+app/views/pictures/_form.html.erb:3:in `_app_views_pictures__form_html_erb__1806195700680059239_70133734775380'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133734672760'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.7ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:50 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.5ms)
+  Rendered pictures/new.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting ')'
+....append=( f.file_field :image "Save", :placeholder => 'Image...
+...                               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+...d=( f.file_field :image "Save", :placeholder => 'Image', :cl...
+...                               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+...Save", :placeholder => 'Image', :class => 'form-control' );@...
+...                               ^):
+  
+app/views/pictures/_form.html.erb:14: syntax error, unexpected tSTRING_BEG, expecting ')'
+app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/pictures/_form.html.erb:14: syntax error, unexpected ',', expecting ')'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133761099660'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (42.6ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:39:55 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.9ms)
+  Rendered pictures/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:40:09 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.6ms)
+  Rendered pictures/new.html.erb within layouts/application (2.6ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (3 for 1..2)):
+    11:     <%= f.hidden_field :user_id, :value => current_user.id %>
+    12:   </div>
+    13:   <div class="form-group">
+    14:     <%= f.file_field :image, "Save", :class => 'form-control' %>
+    15:   </div>
+    16:   <div class="form-group">
+    17:     <%= f.submit "Save", :class => "btn btn-primary"%>
+  
+app/views/pictures/_form.html.erb:14:in `block in _app_views_pictures__form_html_erb__1806195700680059239_70133793032400'
+app/views/pictures/_form.html.erb:3:in `_app_views_pictures__form_html_erb__1806195700680059239_70133793032400'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133537200140'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.5ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.7ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:40:15 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:41:08 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.4ms)
+  Rendered pictures/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:41:11 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.3ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:41:15 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 38ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:42:23 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (44.4ms)
+  Rendered pictures/new.html.erb within layouts/application (45.6ms)
+Completed 500 Internal Server Error in 51ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `profile_path' for #<#<Class:0x007f927b5628f8>:0x007f927ccf6e60>):
+    18:   </div>
+    19:   <div class="avatar">
+    20:         <!-- New Avatar Upload Form -->
+    21:         <%= form_for :upload, :html => {:multipart => true, :id => "avatar"}, :method => :put, url: profile_path(current_user.id), "data_id" => current_user.id do |f| %>
+    22:             <div class="btn btn-success fileinput-button avatar" id="avatar_container">
+    23:                 <%= f.file_field :avatar, :title => "Upload New" %>
+    24:                 <%= image_tag(@user.profile.avatar.url, :width=> '100%', :id => "avatar_img", :alt => name?(@user)) %>
+  
+app/views/pictures/_form.html.erb:21:in `block in _app_views_pictures__form_html_erb__1806195700680059239_70133568468000'
+app/views/pictures/_form.html.erb:3:in `_app_views_pictures__form_html_erb__1806195700680059239_70133568468000'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133567962160'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.8ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:43:26 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.9ms)
+  Rendered pictures/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:43:45 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.8ms)
+  Rendered pictures/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/pictures" for ::1 at 2017-03-06 21:43:47 -0800
+Processing by PicturesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2V41YQgNLWoMf9k6fPaoLzdWJwCiGkGja7rFB1hPSZDg5pyfaaA85FnK+QldExOgkiY3pWCh7EvjBHrpiaLf9g==", "picture"=>{"title"=>"", "description"=>"", "user_id"=>"1"}, "commit"=>"<img class=\"btn\" src=\"/assets/btn-home-8537838d59cbf0a86e0e405051bc4c2a7627c17a6ab9a854d1aa9fa6aa5d5339.png\" alt=\"Btn home\" />"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (114.0ms)
+  Rendered pictures/new.html.erb within layouts/application (122.8ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_pictures_path' for #<#<Class:0x007f927b5628f8>:0x007f928ae07b98>):
+    1: 
+    2: <div class="well">
+    3:   <%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
+    4:   <div class="form-group">
+    5:     <%= f.text_field :title, :placeholder => 'Title', :class => 'form-control' %>
+    6:   </div>
+  
+app/views/pictures/_form.html.erb:3:in `_app_views_pictures__form_html_erb__1806195700680059239_70133767246300'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133766961760'
+app/controllers/pictures_controller.rb:34:in `create'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.4ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.5ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.text.erb (24.8ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:43:55 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (2.1ms)
+  Rendered pictures/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 35ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:43:59 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.6ms)
+  Rendered pictures/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:18: syntax error, unexpected ')', expecting :: or '[' or '.'
+...it, image_tag("btn-home.png") );@output_buffer.safe_append='
+...                               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:26: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/pictures/_form.html.erb:18: syntax error, unexpected ')', expecting :: or '[' or '.'
+app/views/pictures/_form.html.erb:21: syntax error, unexpected keyword_end, expecting ')'
+app/views/pictures/_form.html.erb:24: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pictures/_form.html.erb:26: syntax error, unexpected keyword_end, expecting ')'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb___2642600948071943441_70133753427360'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.9ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:44:41 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 1304ms (Views: 1301.6ms | ActiveRecord: 0.3ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/mybutton.png"):
+  
+actionpack (5.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (3.4.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.4.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.4.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.2) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.2) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.0.2) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:63:in `block (3 levels) in broadcast'
+activesupport (5.0.2) lib/active_support/logger_silence.rb:20:in `silence'
+activesupport (5.0.2) lib/active_support/logger.rb:61:in `block (2 levels) in broadcast'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.2) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.2) lib/rails/engine.rb:522:in `call'
+puma (3.7.1) lib/puma/configuration.rb:232:in `call'
+puma (3.7.1) lib/puma/server.rb:578:in `handle_request'
+puma (3.7.1) lib/puma/server.rb:415:in `process_client'
+puma (3.7.1) lib/puma/server.rb:275:in `block in run'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `call'
+puma (3.7.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:05 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1076ms (Views: 1074.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:21 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1087ms (Views: 1085.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:34 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1086ms (Views: 1083.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:38 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:38 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:45:51 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1369ms (Views: 1366.2ms | ActiveRecord: 0.3ms)
+
+
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:47:50 -0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (6.0ms)
+  Rendered pictures/new.html.erb within layouts/application (7.2ms)
+Completed 500 Internal Server Error in 285ms (ActiveRecord: 4.5ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap-filestyle' with type 'application/javascript'
+Checked in these paths: 
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/config
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/images
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/stylesheets
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actioncable-5.0.2/lib/assets/compiled
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/images):
+    3:   <head>
+    4:     <title>Clothing</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    9:     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4290308648491417606_70204776694240'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.1ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (50.3ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:47:52 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap-filestyle' with type 'application/javascript'
+Checked in these paths: 
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/config
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/images
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/stylesheets
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actioncable-5.0.2/lib/assets/compiled
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/images):
+    3:   <head>
+    4:     <title>Clothing</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    9:     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4290308648491417606_70204819000500'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.0ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (46.2ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:48:01 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap-filestyle' with type 'application/javascript'
+Checked in these paths: 
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/config
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/images
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/assets/stylesheets
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/javascripts
+  /Users/JoshuaRinard/Desktop/OUTFIT-Rails/vendor/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/jquery-rails-4.2.2/vendor/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/coffee-rails-4.2.1/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actioncable-5.0.2/lib/assets/compiled
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/turbolinks-source-5.0.0/lib/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/stylesheets
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/javascripts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/fonts
+  /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/bootstrap-sass-3.3.7/assets/images):
+    3:   <head>
+    4:     <title>Clothing</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    7:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    8:     <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    9:     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+app/assets/javascripts/application.js:18
+app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb___4290308648491417606_70204839184880'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (6.7ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (47.9ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:48:47 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 90ms (Views: 87.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:49:07 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:49:26 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.6ms)
+  Rendered pictures/new.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:17: syntax error, unexpected ')'
+     );@output_buffer.safe_append='
+      ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+               ^
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:26: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/views/pictures/_form.html.erb:28: syntax error, unexpected keyword_end, expecting ')'):
+  
+app/views/pictures/_form.html.erb:17: syntax error, unexpected ')'
+app/views/pictures/_form.html.erb:23: syntax error, unexpected keyword_end, expecting ')'
+app/views/pictures/_form.html.erb:26: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/pictures/_form.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+app/views/pictures/new.html.erb:1:in `_app_views_pictures_new_html_erb__559205605063161746_70204802364660'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (43.7ms)
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:49:33 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 46ms (Views: 43.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:49:45 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 40ms (Views: 37.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:50:19 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1150ms (Views: 1148.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:50:32 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1182ms (Views: 1179.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:52:08 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1227ms (Views: 1224.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:52:19 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:52:57 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 30.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:53:00 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 35.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:53:01 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 57ms (Views: 52.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:53:32 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 34ms (Views: 31.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:54:02 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:55:07 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.9ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 33ms (Views: 31.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/pictures" for ::1 at 2017-03-06 21:55:23 -0800
+Processing by PicturesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PmMaH3WeUffQIZHdIYx0CH2vTH8YRH0Oh6V7mCyjzD8H27PhFDNAeYWUse4Aac+H2N9c2tr/0OYPG8R2/U5aWQ==", "picture"=>{"title"=>"test", "description"=>"test", "user_id"=>"1"}, "commit"=>"Save"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "pictures" ("title", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "test"], ["description", "test"], ["user_id", 1], ["created_at", 2017-03-07 05:55:23 UTC], ["updated_at", 2017-03-07 05:55:23 UTC]]
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 200 OK in 11ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:55:23 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 32.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:55:25 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 45ms (Views: 40.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:55:33 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.4ms)
+  Rendered pictures/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 39ms (Views: 35.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:56:09 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1252ms (Views: 1249.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:56:18 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:56:27 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 32ms (Views: 29.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:56:40 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1097ms (Views: 1094.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:56:53 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1345ms (Views: 1342.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:57:13 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1066ms (Views: 1063.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:57:19 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1334ms (Views: 1331.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:57:22 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (0.9ms)
+  Rendered pictures/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1061ms (Views: 1058.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:57:31 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.0ms)
+  Rendered pictures/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 32.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:57:47 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.1ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-06 21:58:11 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.3ms)
+  Rendered pictures/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 36ms (Views: 33.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures/new?logout=logout" for ::1 at 2017-03-06 21:58:14 -0800
+Processing by PicturesController#new as HTML
+  Parameters: {"logout"=>"logout"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.2ms)
+  Rendered pictures/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 71ms (Views: 67.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:58:16 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:58:18 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 39ms (Views: 34.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures/1" for ::1 at 2017-03-06 21:58:21 -0800
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/show.html.erb within layouts/application
+  Rendered pictures/_form-details.html.erb (7.4ms)
+  Rendered pictures/show.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 47ms (Views: 41.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:58:24 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 31.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:58:25 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 40ms (Views: 35.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:58:26 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 35.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:58:27 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:58:29 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2017-03-06 21:59:00 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:59:01 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 63ms (Views: 58.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-06 21:59:13 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.6ms)
+
+
