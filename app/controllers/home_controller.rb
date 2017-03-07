@@ -13,9 +13,6 @@ def index
   if params[:logout]
     @showlogin = true
   end
-  if params[:login]
-    @showlogin = false
-  end
 end
 
 def new
