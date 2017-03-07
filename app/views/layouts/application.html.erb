@@ -16,6 +16,10 @@
 
 <div class="col-sm-12">
     <nav class = "nav navbar-custom">
+
+
+
+
       <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
       <% if current_user %>
         <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
@@ -28,6 +32,10 @@
 
 <!-- LOGIN -->
 <div class="col-sm-12">
+  <div class="center grey">
+          <%= flash[:notice] %>
+  </div>
+
   <% if @showlogin === true %>
       <div class="nav login-text navbar-custom">
         <% if current_user %>
@@ -46,7 +54,7 @@
 
 
 <div class="col-sm-12">
-  <%= flash[:notice] %>
+
 </div>
       <%= yield %>
       <div class="col-sm-12">

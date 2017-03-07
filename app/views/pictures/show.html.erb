@@ -3,7 +3,7 @@
 <div class="col-sm-12 col-md-6">
 
   <%= render "form-details" %>
-
+  <%= link_to "Delete", picture_path(@picture),:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
 
 <div class="well">
   <div id="details">

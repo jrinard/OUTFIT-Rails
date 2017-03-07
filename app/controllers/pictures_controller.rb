@@ -11,6 +11,11 @@ def index
     @showdetail = true
   end
 
+  @showlogin = false
+  if params[:logout]
+    @showlogin = true
+  end
+
 end
 
 def show
@@ -45,7 +50,7 @@ end
 #    respond_to do |format|
 #    if @picture.save
 #      format.html flash[:notice] = "Picture Saved!"
-#      format.js
+#      format.js { redirect_to(fallback_location: pictures_path, notice: 'worked') }
 #     #  redirect_to pictures_path
 #    else
 #      format.html {render :new, notice: 'There was an error.'}
@@ -70,8 +75,16 @@ def update
     end
   end
 
-def destroy
+  def destroy
+    @picture = Picture.find(params[:id])
+    if @picture.destroy
+    flash[:notice] = "Picture deleted!"
+    redirect_to pictures_path
+  else
+    render :edit
+  end
 end
+
 
 def picture_params
    params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra)

@@ -7,7 +7,6 @@
     <% @pictures.each do |picture| %>
     <div class="col-sm-12 col-md-6">
       <div class="well">
-
       <%= image_tag picture.image, :class => "image-size img-responsive round" %>
 
     <div id="block1">
@@ -15,8 +14,6 @@
       <span class="day"><%= picture.created_at.strftime("%d") %></span>
 
       <div class="title"><%= picture.title %></div>
-
-
       <div class="description"><%= picture.description %></div>
     </div>
 
@@ -26,12 +23,14 @@
     </div>
 
     <div id="block-bottom">
+        <%= link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
+         <!-- <button class="toggle btn">Details</button> -->
       <span class="time"><%# time_ago_in_words(picture.created_at) %></span>
     </div>
 
-    <%= link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
+
 <% if @showdetail === true %>
- <!-- <button class="toggle btn">Details</button> -->
+
 
     <div id="details">
       <hr>
