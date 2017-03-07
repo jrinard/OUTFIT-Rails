@@ -14,7 +14,7 @@
 
 <div class="col-sm-12">
     <nav class = "nav navbar-custom shift">
-      <a href="/"><span class="logo">Clothing</span> </a>
+      <a href="/"><span class="logo shift-right">Clothing</span> </a>
       <% if current_user %>
         <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% else %>
@@ -24,15 +24,10 @@
 
 
 
-
-
-
-  <div class="col-sm-12">
-
-
+<!-- LOGIN -->
+<div class="col-sm-12">
   <% if @showlogin === true %>
-
-        <div class="nav login-text navbar-custom">
+      <div class="nav login-text navbar-custom">
         <% if current_user %>
           <!-- <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> -->
           <span class="white"><%= current_user.username %></span> |
@@ -43,12 +38,9 @@
           <%= link_to "Signup", new_user_registration_path %></a>
         <% end %>
       </div> <!-- login end -->
-
   <% end %>
-      </div> <!-- col end -->
-    </nav>
-
-
+      </nav>
+</div> <!-- col end -->
 
 
 
@@ -58,10 +50,10 @@
       <div class="col-sm-12">
           <div class="control-panel control-text">
             <div class="img-responsive">
-            <%= link_to "Home", root_path %>
-            <%= link_to image_tag("button.png", :class => "button"), new_picture_path %>
-            <%= link_to "Fav", pictures_path %>
-            <%= link_to "Closet", pictures_path %>
+            <%= link_to image_tag("btn-home.png", :class => ""), root_path %>
+            <%= link_to image_tag("btn-photo.png", :class => ""), new_picture_path %>
+            <%= link_to image_tag("btn-closet.png", :class => ""), pictures_path %>
+        
           </div>
         </div><!-- control panel end -->
       </div> <!-- col end -->

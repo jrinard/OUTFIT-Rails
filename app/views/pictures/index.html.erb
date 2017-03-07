@@ -1,5 +1,7 @@
 <div class="col-sm-12 col-md-6">
   <h1>Your Closet</h1>
+
+    <%= link_to "Favorites Toggle", pictures_path %>
   <% if @pictures.any? %>
   <% @pictures.each do |picture| %>
     <div class="well">

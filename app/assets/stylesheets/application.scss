@@ -111,8 +111,8 @@ body {
 
 //FORM TEXT
 .input-lg {
-  font-size: 50px;
-  height: 70px;
+  font-size: 30px;
+  height: 50px;
 }
 
 .btn-lg {
@@ -126,13 +126,18 @@ body {
 }
 
 
-
 .container {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   padding: 0;
 
+}
+
+
+.login-text {
+  padding-top: 20px;
+  font-size: 20px;
 }
 
 // TOP NAVIGATION
@@ -154,12 +159,9 @@ body {
   margin:auto;
   margin-left: 0px;
   margin-right: 0px;
+  margin-left: 50px;
 }
 
-.login-text {
-  padding-top: 20px;
-  font-size: 20px;
-}
 
 .center {
   text-align: center;
