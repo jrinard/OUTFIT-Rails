@@ -11,26 +11,44 @@
   <body>
       <div class="container">
 <div class="row">
-  
+
 <div class="col-sm-12 col-md-6">
     <nav class = "nav navbar-custom shift">
       <a href="/"><span class="logo">Clothing</span> </a>
+      <%= link_to image_tag("menu.png", :class => "pull-right"), :logout => "logout" %>
+</div> <!-- col end -->
 
-    </div> <!-- col end -->
+
+
+
+
+
   <div class="col-sm-12 col-md-6">
+
+
+  <% if @showlogin === true %>
+
         <div class="nav pull-right shift login-text navbar-custom ">
         <% if current_user %>
-          <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span>
+          <!-- <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> -->
           <span class="white"><%= current_user.username %></span> |
           <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
         <% else %>
-          <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span>
+          <!-- <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span> -->
           <%= link_to "Log-in", new_user_session_path %></a> |
           <%= link_to "Signup", new_user_registration_path %></a>
         <% end %>
       </div> <!-- login end -->
+
+  <% end %>
+      </div> <!-- col end -->
     </nav>
-  </div> <!-- col end -->
+
+
+
+
+
+
       <%= flash[:notice] %>
       <%= yield %>
       <div class="col-sm-12">

@@ -8,6 +8,14 @@ def index
   #   @user = User.find(params[:upvote])
   #   @user.liked_by current_user
   # end
+
+  @showlogin = false
+  if params[:logout]
+    @showlogin = true
+  end
+  if params[:login]
+    @showlogin = false
+  end
 end
 
 def new
