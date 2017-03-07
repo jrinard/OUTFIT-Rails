@@ -15,6 +15,8 @@
       <span class="day"><%= picture.created_at.strftime("%d") %></span>
 
       <div class="title"><%= picture.title %></div>
+
+
       <div class="description"><%= picture.description %></div>
     </div>
 
@@ -24,32 +26,38 @@
     </div>
 
     <div id="block-bottom">
-      <span class="time"><%= time_ago_in_words(picture.created_at) %> ago</span>
+      <span class="time"><%# time_ago_in_words(picture.created_at) %></span>
     </div>
 
- <button class="toggle btn">Details</button>
+    <%= link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
+<% if @showdetail === true %>
+ <!-- <button class="toggle btn">Details</button> -->
 
     <div id="details">
-
+      <hr>
       <% if picture.body != "" %>
-        <li>Body: <%= picture.body %></li>
+        <span class="type">Body:</span> <span class="detail"><%= picture.body %></span><br>
       <% end %>
       <% if picture.legs != ""  %>
-        <li>Legs: <%= picture.legs %></li>
+        <span class="type">Legs:</span> <span class="detail"> <%= picture.legs %></span><br>
       <% end %>
       <% if picture.feet != "" %>
-        <li>Feet: <%= picture.feet %></li>
+        <span class="type">Feet:</span> <span class="detail"> <%= picture.feet %></span><br>
       <% end %>
       <% if picture.hands != "" %>
-        <li>Hands: <%= picture.hands %></li>
+        <span class="type">Hands:</span> <span class="detail"> <%= picture.hands %></span><br>
       <% end %>
       <% if picture.head != "" %>
-        <li>Head: <%= picture.head %></li>
+        <span class="type">Head:</span> <span class="detail"> <%= picture.head %></span><br>
       <% end %>
       <% if picture.extra != "" %>
-        <li>Extra: <%= picture.extra %></li>
+        <span class="type">Extra:</span> <span class="detail"> <%= picture.extra %></span><br>
       <% end %>
     </div><!-- detail end -->
+
+<% end %><!-- showdetail end -->
+
+
   </div><!-- well end -->
   </div><!-- col end -->
      <% end %>

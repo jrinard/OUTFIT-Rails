@@ -1,25 +1,37 @@
+<h1 class="center">Add Outfit Details</h1>
+<div class="well">
+  <%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
+  <%= f.hidden_field :user_id, :value => current_user.id %>
 
-<%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
-<%= f.hidden_field :user_id, :value => current_user.id %>
-  <div class="form-group">
-    <%= f.text_field :body, :placeholder => 'Shirt', :class => 'form-control' %>
+  <div class="field">
+    <%= f.text_field :title, :placeholder => 'Title', :class => 'form-control input-lg' %>
   </div>
-  <div class="form-group">
-    <%= f.text_field :legs, :placeholder => 'Jeans', :class => 'form-control' %>
+  <div class="field">
+  <%= f.text_field :description, :placeholder => 'Description', :class => 'form-control input-lg' %>
   </div>
-  <div class="form-group">
-    <%= f.text_field :feet, :placeholder => 'Shoes', :class => 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.text_field :hands, :placeholder => 'Gloves', :class => 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.text_field :head, :placeholder => 'Hat', :class => 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.text_field :extra, :placeholder => 'Extra', :class => 'form-control' %>
-  </div>
-  <div class="form-group">
-    <%= f.submit :class => "btn btn-primary"%>
-  </div>
-<% end %>
+
+  <hr>
+
+    <div class="field">
+      <%= f.text_field :body, :placeholder => 'Shirt', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+      <%= f.text_field :legs, :placeholder => 'Jeans', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+      <%= f.text_field :feet, :placeholder => 'Shoes', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+      <%= f.text_field :hands, :placeholder => 'Gloves', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+      <%= f.text_field :head, :placeholder => 'Hat', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+      <%= f.text_field :extra, :placeholder => 'Extra', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field center">
+      <%= f.submit "Save", :class => "btn-lg btn-primary"%>
+    </div>
+  <% end %>
+</div><!-- well end -->

@@ -10,9 +10,6 @@ def index
   if params[:showdetail]
     @showdetail = true
   end
-  if @showdetail === true
-    flash[:notice] = "Show true"
-  end
 
 end
 
