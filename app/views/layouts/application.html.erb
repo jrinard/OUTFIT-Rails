@@ -16,10 +16,6 @@
 
 <div class="col-sm-12">
     <nav class = "nav navbar-custom">
-
-
-
-
       <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
       <% if current_user %>
         <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
@@ -62,8 +58,10 @@
             <div class="notice"></div>
             <div class="img-responsive">
             <%= link_to image_tag("btn-home.png", :class => "btn"), root_path %>
+            <%= link_to image_tag("btn-search.png", :class => "btn"), pictures_path %>
             <%= link_to image_tag("btn-photo.png", :class => "btn"), new_picture_path %>
             <%= link_to image_tag("btn-closet.png", :class => "btn"), pictures_path %>
+            <%= link_to image_tag("btn-fav.png", :class => "btn"), pictures_path %>
 
           </div>
         </div><!-- control panel end -->
