@@ -1,33 +1,31 @@
   <div class="col-sm-12">  <!-- may not need -->
     <h3 class="center"><%= current_user.username %> Closet</h3>
-    <%= link_to "Favorites Toggle", pictures_path %>
+    <%# link_to "Favorites Toggle", pictures_path %>
   </div>
-
 
   <% if @pictures.any? %>
     <% @pictures.each do |picture| %>
     <div class="col-sm-12 col-md-6">
       <div class="well">
 
-      <li><%= image_tag picture.image, :class => "image-size img-responsive" %></li>
+      <%= image_tag picture.image, :class => "image-size img-responsive round" %>
 
-
-<div id="block1">
+    <div id="block1">
       <span class="month"><%= picture.created_at.strftime("%b") %></span>
       <span class="day"><%= picture.created_at.strftime("%d") %></span>
 
       <div class="title"><%= picture.title %></div>
       <div class="description"><%= picture.description %></div>
-</div>
+    </div>
 
-<div id="block2">
-    <%= link_to image_tag("btn-edit.png", :class => "btn"), picture_path(picture) %>
-    <%= link_to image_tag("btn-fav.png", :class => "btn"), picture_path(picture) %>
-</div>
+    <div id="block2 ">
+      <%= link_to image_tag("btn-fav.png", :class => "btn marginL"), picture_path(picture) %>
+      <%= link_to image_tag("btn-edit.png", :class => "btn marginL"), picture_path(picture) %>
+    </div>
 
-<div id="block-bottom">
-  <span class="time"><%= time_ago_in_words(picture.created_at) %> ago</span>
-</div>
+    <div id="block-bottom">
+      <span class="time"><%= time_ago_in_words(picture.created_at) %> ago</span>
+    </div>
       </div>
       </div>
     <% end %>

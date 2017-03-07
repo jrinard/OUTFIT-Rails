@@ -4,7 +4,8 @@ class PicturesController < ApplicationController
 
 def index
   @user = current_user
-  @pictures = @user.pictures
+  @pictures = @user.pictures.order(id: :desc)
+
 end
 
 def show

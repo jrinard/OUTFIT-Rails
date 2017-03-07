@@ -45875,3 +45875,1171 @@ Processing by PicturesController#index as HTML
 Completed 200 OK in 44ms (Views: 40.2ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/pictures" for ::1 at 2017-03-07 10:51:46 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 44ms (Views: 40.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:51:50 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:52:02 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:53:22 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 48ms (Views: 44.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:53:28 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:54:11 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1215ms (Views: 1211.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:54:33 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:54:45 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:54:54 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:54:59 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 1192ms (Views: 1189.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:08 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:11 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 37.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:11 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 45ms (Views: 41.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:11 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 45ms (Views: 41.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:16 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:22 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1204ms (Views: 1200.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:26 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:30 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 1226ms (Views: 1223.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:38 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1320ms (Views: 1317.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:42 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 1216ms (Views: 1212.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:46 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:46 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 43ms (Views: 38.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:46 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:55:55 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:56:06 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1205ms (Views: 1202.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:56:13 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 1212ms (Views: 1208.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:56:19 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1193ms (Views: 1189.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:56:44 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 40ms (Views: 36.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:57:14 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:57:52 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1210ms (Views: 1206.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:58:10 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 1227ms (Views: 1223.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures/29" for ::1 at 2017-03-07 10:58:20 -0800
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"29"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  Rendering pictures/show.html.erb within layouts/application
+  Rendered pictures/_form-details.html.erb (2.1ms)
+  Rendered pictures/show.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 45ms (Views: 39.5ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/pictures/29" for ::1 at 2017-03-07 10:59:08 -0800
+Processing by PicturesController#update as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZZX4sM52+sVyWZCGQ1MXbAxpb5APzxiCN+TdYUC938PghJoZVtm08VebwesDkGdHwAeKBUN08iv/u9Bk8187vA==", "picture"=>{"user_id"=>"1", "body"=>"blue", "legs"=>"", "feet"=>"", "hands"=>"", "head"=>"", "extra"=>"shades"}, "commit"=>"Update Picture", "id"=>"29"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = $1 LIMIT $2[0m  [["id", 29], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "pictures" SET "body" = $1, "legs" = $2, "feet" = $3, "hands" = $4, "head" = $5, "extra" = $6, "updated_at" = $7 WHERE "pictures"."id" = $8[0m  [["body", "blue"], ["legs", ""], ["feet", ""], ["hands", ""], ["head", ""], ["extra", "shades"], ["updated_at", 2017-03-07 18:59:08 UTC], ["id", 29]]
+  [1m[35m (6.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pictures
+Completed 200 OK in 13ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:59:08 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 46ms (Views: 41.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:59:26 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 10:59:32 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[36mPicture Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "pictures" WHERE "pictures"."user_id" = $1 LIMIT $2[0m  [["user_id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 1234ms (Views: 1230.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:02:35 -0800
+  
+SyntaxError (/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/controllers/pictures_controller.rb:9: syntax error, unexpected keyword_end, expecting ')'
+/Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/controllers/pictures_controller.rb:76: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/pictures_controller.rb:9: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/pictures_controller.rb:76: syntax error, unexpected end-of-input, expecting keyword_end
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.5ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (40.4ms)
+Started GET "/pictures" for ::1 at 2017-03-07 11:02:43 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 80ms (Views: 46.1ms | ActiveRecord: 4.1ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:04:18 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 61ms (Views: 44.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:04:22 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 43ms (Views: 37.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures?sort_by=avgrating" for ::1 at 2017-03-07 11:04:23 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"avgrating"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (8.7ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY avgrating[0m
+  Rendered pictures/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 9.2ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column "avgrating" does not exist
+LINE 1: SELECT "pictures".* FROM "pictures" ORDER BY avgrating
+                                                     ^
+: SELECT "pictures".* FROM "pictures" ORDER BY avgrating):
+     5: <h4>Sort By: <%= link_to "A-Z", :sort_by => "name" %> | <%= link_to "Rating", :sort_by => "avgrating" %> | <%= link_to "Create Date", :sort_by => "created_at" %></h4>
+     6: 
+     7:   <% if @pictures.any? %>
+     8:     <% @pictures.each do |picture| %>
+     9:     <div class="col-sm-12 col-md-6">
+    10:       <div class="well">
+    11: 
+  
+app/views/pictures/index.html.erb:8:in `_app_views_pictures_index_html_erb___1523276952120023330_70179462999180'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.4ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.1ms)
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:04:25 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 38ms (Views: 34.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=name" for ::1 at 2017-03-07 11:04:28 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"name"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.8ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY name[0m
+  Rendered pictures/index.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column "name" does not exist
+LINE 1: SELECT "pictures".* FROM "pictures" ORDER BY name
+                                                     ^
+: SELECT "pictures".* FROM "pictures" ORDER BY name):
+     5: <h4>Sort By: <%= link_to "A-Z", :sort_by => "name" %> | <%= link_to "Rating", :sort_by => "avgrating" %> | <%= link_to "Create Date", :sort_by => "created_at" %></h4>
+     6: 
+     7:   <% if @pictures.any? %>
+     8:     <% @pictures.each do |picture| %>
+     9:     <div class="col-sm-12 col-md-6">
+    10:       <div class="well">
+    11: 
+  
+app/views/pictures/index.html.erb:8:in `_app_views_pictures_index_html_erb___1523276952120023330_70179375084080'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.7ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.6ms)
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:04:31 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:04:59 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:17 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 41ms (Views: 37.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:18 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.4ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:19 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.5ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 55ms (Views: 50.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:20 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.5ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pictures?sort_by=name" for ::1 at 2017-03-07 11:05:23 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"name"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.5ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY name[0m
+  Rendered pictures/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (PG::UndefinedColumn: ERROR:  column "name" does not exist
+LINE 1: SELECT "pictures".* FROM "pictures" ORDER BY name
+                                                     ^
+: SELECT "pictures".* FROM "pictures" ORDER BY name):
+     6:     <%= link_to "Create Date", :sort_by => "created_at" %></h4>
+     7: 
+     8:   <% if @pictures.any? %>
+     9:     <% @pictures.each do |picture| %>
+    10:     <div class="col-sm-12 col-md-6">
+    11:       <div class="well">
+    12: 
+  
+app/views/pictures/index.html.erb:9:in `_app_views_pictures_index_html_erb___1523276952120023330_70179419223360'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (4.8ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.0ms)
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:25 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 42ms (Views: 38.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:32 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:05:33 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.4ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 48ms (Views: 43.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:05:37 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 47ms (Views: 42.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:05:38 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.5ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 51ms (Views: 45.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:06:16 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+Completed 500 Internal Server Error in 54ms (ActiveRecord: 0.3ms)
+
+
+  
+NameError (undefined local variable or method `created_at' for #<PicturesController:0x007fa7ddc2ae48>):
+  
+app/controllers/pictures_controller.rb:8:in `index'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (3.0ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (70.4ms)
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:06:28 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `created_at' for Date:Class):
+  
+app/controllers/pictures_controller.rb:8:in `index'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.9ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (41.5ms)
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:06:37 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 63ms (Views: 47.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:07:02 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.4ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:07:50 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-07 11:07:53 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.8ms)
+  Rendered pictures/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/pictures" for ::1 at 2017-03-07 11:08:03 -0800
+Processing by PicturesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qXAz90OXIsmTMCINTffNVSXpVqdEwBIdhWmO8a6fQ57PtLGdQO7qa3KxCtviqwIx8j8SIlJgqNHz53OusMBNmQ==", "picture"=>{"title"=>"test", "description"=>"test", "user_id"=>"1"}, "commit"=>"Save"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("title", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "test"], ["description", "test"], ["user_id", 1], ["created_at", 2017-03-07 19:08:03 UTC], ["updated_at", 2017-03-07 19:08:03 UTC]]
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pictures
+Completed 200 OK in 10ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:08:03 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 47ms (Views: 41.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:08:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 47ms (Views: 41.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:08:21 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 70ms (Views: 65.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures/31" for ::1 at 2017-03-07 11:08:26 -0800
+Processing by PicturesController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT  "pictures".* FROM "pictures" WHERE "pictures"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  Rendering pictures/show.html.erb within layouts/application
+  Rendered pictures/_form-details.html.erb (2.0ms)
+  Rendered pictures/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 37.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-07 11:08:36 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.4ms)
+  Rendered pictures/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 45ms (Views: 41.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/pictures" for ::1 at 2017-03-07 11:08:40 -0800
+Processing by PicturesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jeluwb8ByGdVWJzEMLrALRlFxZ8E8sXJ6hksJZ3v77LrLeyrvHgAxbTZtBKf5g9JzpOBGhJSfwWcl9F6g7DhtQ==", "picture"=>{"title"=>"asadasd", "description"=>"asaasd", "user_id"=>"1"}, "commit"=>"Save"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("title", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "asadasd"], ["description", "asaasd"], ["user_id", 1], ["created_at", 2017-03-07 19:08:40 UTC], ["updated_at", 2017-03-07 19:08:40 UTC]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pictures
+Completed 200 OK in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:08:40 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 49ms (Views: 44.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:08:44 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 45ms (Views: 40.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2017-03-07 11:09:00 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 38.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:09:02 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 57ms (Views: 51.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:09:04 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 53ms (Views: 48.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures/new" for ::1 at 2017-03-07 11:09:12 -0800
+Processing by PicturesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/new.html.erb within layouts/application
+  Rendered pictures/_form.html.erb (1.7ms)
+  Rendered pictures/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 44ms (Views: 39.7ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/pictures" for ::1 at 2017-03-07 11:09:15 -0800
+Processing by PicturesController#create as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TSmbKe12HxR07PFRcLXyPZyKcesP1t+L8ywPTN7W7aEr7RlD7g/XtpVt2Yff6T1ZS1w1bhl2ZUeFovITwInjpg==", "picture"=>{"title"=>"AAA", "description"=>"", "user_id"=>"1"}, "commit"=>"Save"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pictures" ("title", "description", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "AAA"], ["description", ""], ["user_id", 1], ["created_at", 2017-03-07 19:09:15 UTC], ["updated_at", 2017-03-07 19:09:15 UTC]]
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pictures
+Completed 200 OK in 5ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:09:15 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.1ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 54ms (Views: 49.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-07 11:09:17 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 39ms (Views: 35.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:09:19 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures"[0m
+  Rendered pictures/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 59ms (Views: 52.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:09:22 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY title[0m
+  Rendered pictures/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 49ms (Views: 44.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:09:26 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY created_at[0m
+  Rendered pictures/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 50ms (Views: 47.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:10:22 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.5ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY asc[0m
+  Rendered pictures/index.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 1.2ms)
+
+
+  
+ActionView::Template::Error (PG::SyntaxError: ERROR:  syntax error at or near "asc"
+LINE 1: SELECT "pictures".* FROM "pictures" ORDER BY asc
+                                                     ^
+: SELECT "pictures".* FROM "pictures" ORDER BY asc):
+     6:     <%= link_to "Create Date", :sort_by => "created_at" %></h4>
+     7: 
+     8:   <% if @pictures.any? %>
+     9:     <% @pictures.each do |picture| %>
+    10:     <div class="col-sm-12 col-md-6">
+    11:       <div class="well">
+    12: 
+  
+app/views/pictures/index.html.erb:9:in `_app_views_pictures_index_html_erb___1523276952120023330_70179470860500'
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (5.1ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendering /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/JoshuaRinard/.gem/ruby/2.2.2/gems/actionpack-5.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.7ms)
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:11:34 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 64ms (Views: 48.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:11:40 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" ASC[0m
+  Rendered pictures/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 90ms (Views: 73.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:11:44 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 64ms (Views: 47.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:11:46 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 50ms (Views: 45.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:11:49 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 51ms (Views: 45.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures?sort_by=created_at" for ::1 at 2017-03-07 11:11:51 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"created_at"}
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 52ms (Views: 46.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:11:52 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (2.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures"[0m
+  [1m[36mPicture Load (0.4ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" ORDER BY "pictures"."id" DESC[0m
+  Rendered pictures/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 62ms (Views: 54.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:07 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+DEPRECATION WARNING: [paperclip] [deprecation] AWS SDK v1 has been deprecated in paperclip 5. Please consider upgrading to AWS 2 before upgrading paperclip. (called from <class:Picture> at /Users/JoshuaRinard/Desktop/OUTFIT-Rails/app/models/picture.rb:6)
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 72ms (Views: 50.4ms | ActiveRecord: 4.5ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 48ms (Views: 43.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 48ms (Views: 44.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 46ms (Views: 42.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:08 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 46ms (Views: 42.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures?sort_by=title" for ::1 at 2017-03-07 11:12:09 -0800
+Processing by PicturesController#index as HTML
+  Parameters: {"sort_by"=>"title"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2017-03-07 11:12:11 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 33.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:12:12 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 50ms (Views: 44.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:12:13 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 46ms (Views: 42.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2017-03-07 11:12:14 -0800
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 36.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:12:16 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.3ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 57ms (Views: 51.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pictures" for ::1 at 2017-03-07 11:13:00 -0800
+Processing by PicturesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering pictures/index.html.erb within layouts/application
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pictures" WHERE "pictures"."user_id" = $1[0m  [["user_id", 1]]
+  [1m[36mPicture Load (0.2ms)[0m  [1m[34mSELECT "pictures".* FROM "pictures" WHERE "pictures"."user_id" = $1 ORDER BY "pictures"."id" DESC[0m  [["user_id", 1]]
+  Rendered pictures/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 64ms (Views: 60.1ms | ActiveRecord: 0.7ms)
+
+
