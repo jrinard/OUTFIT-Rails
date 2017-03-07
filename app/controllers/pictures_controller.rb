@@ -6,6 +6,14 @@ def index
   @user = current_user
   @pictures = @user.pictures.order(id: :desc)
 
+  @showdetail = false
+  if params[:showdetail]
+    @showdetail = true
+  end
+  if @showdetail === true
+    flash[:notice] = "Show true"
+  end
+
 end
 
 def show

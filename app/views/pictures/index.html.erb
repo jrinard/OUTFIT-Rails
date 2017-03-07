@@ -26,6 +26,31 @@
     <div id="block-bottom">
       <span class="time"><%= time_ago_in_words(picture.created_at) %> ago</span>
     </div>
+
+<%= link_to "Details", :showdetail => "showdetail" %>
+
+    <% if @showdetail === true %>
+      <% if picture.body %>
+        <li>Body: <%= picture.body %></li>
+      <% end %>
+      <% if picture.legs %>
+        <li>Legs: <%= picture.legs %></li>
+      <% end %>
+      <% if picture.feet %>
+        <li>Feet: <%= picture.feet %></li>
+      <% end %>
+      <% if picture.hands %>
+        <li>Hands: <%= picture.hands %></li>
+      <% end %>
+      <% if picture.head %>
+        <li>Head: <%= picture.head %></li>
+      <% end %>
+      <% if picture.extra %>
+        <li>Extra: <%= picture.extra %></li>
+      <% end %>
+    <% end %>
+
+
       </div>
       </div>
     <% end %>
