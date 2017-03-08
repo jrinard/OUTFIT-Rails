@@ -1,21 +1,22 @@
 class EventsController < ApplicationController
 
-def index
-  @events = Event.all
-
-end
+    def index
+      @events = Event.all
+      @showlogin = false
+      if params[:logout]
+        @showlogin = true
+      end
+    end
 
     def show
       @photo = Picture.find(params[:picture_id])
       tag = Event.find(params[:id])
-      @photoArray = tag.findTaggedPhotos
+      @photoArray = tag.findTaggedPhotos2
     end
 
     def new
       @picture = Picture.find(params[:picture_id])
-      # @event = Event.new(event_params)
       @event = @picture.events.new
-      # @event = Event.new
     end
 
     def create

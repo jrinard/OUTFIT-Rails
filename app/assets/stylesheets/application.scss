@@ -170,10 +170,14 @@ a:link {
   position: fixed;
   bottom: 0;
 }
-
 .btn {
   margin: 0 auto;
-  // padding: 0px 2px;
+  padding: 0px 2px;
+
+}
+
+.btn2 {
+  margin: 0 auto;
   padding: 8px;
 }
 
@@ -308,27 +312,29 @@ input[type="image"]
 .pink {
   border-radius: 5px;
   margin: 5px;
-
 }
 
 .pink a:link {
   color: #fff;
   background-color: #be3f9f;
-
+  padding: 5px;
 }
 .pink a:visited {
   color: #fff;
   background-color: #be3f9f;
+  padding: 5px;
 }
 
 .pink a:active {
   color: #fff;
   background-color: #c659ab;
+  padding: 5px;
 }
 
 .pink a:hover {
   color: #fff;
   background-color: #c659ab;
+  padding: 5px;
 }
 //
 // .btn-teal {
@@ -365,7 +371,6 @@ input[type="image"]
 
 .blue {
   border-radius: 5px;
-  font-size: .9em;
   margin: 5px;
   padding: 5px;
 }
@@ -373,21 +378,25 @@ input[type="image"]
 .blue a:link {
   color: #fff;
   background-color: #2379b4;
+  padding: 5px;
 
 }
 .blue a:visited {
   color: #fff;
   background-color: #2379b4;
+  padding: 5px;
 }
 
 .blue a:active {
   color: #fff;
   background-color: #2379b4;
+  padding: 5px;
 }
 
 .blue a:hover {
   color: #fff;
   background-color: #2379b4;
+  padding: 5px;
 }
 
 
