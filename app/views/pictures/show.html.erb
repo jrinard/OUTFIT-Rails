@@ -63,30 +63,37 @@
 <div class="col-sm-12">
 <div class="well">
 
+<h4>Analyze Photo</h4>
 
-Title: <%= @picture.title %><br>
-Task Id: <%= @task_id %>
-
+<div class="btn btn-primary blue">
+  <%= link_to "Start Analyzing", :get_task => "Get_Task", :class => "btn-lg" %>
+</div>
+<% if @task_id != nil %>
+  Success #: <%= @task_id %>
+<% end %>
+<br>
+<div class="btn btn-primary blue">
+  <%= link_to "Get Results", :get_details => "AnalyzePhoto", :class => "btn-lg" %>
+</div>
 
 <% if @details%>
-<%# @details['task']['data']['boxes'].to_a[0][0]%><br><br>
+<%# @details['task']['data']['boxes'].to_a[0][0]%>
 
+<h4>Image Analysis</h4>
 <% if @details['task']['data'] %>
   <% @test = @details['task']['data']['boxes'].map %><br><br>
   <%= @test.each do |k| %>
+                        <% if k.to_a[0] != "<br>" %>
     <%= k.to_a[0] %><br>
+                        <% end %>
   <% end %>
   <% else %>
   Fashion needs to be attached to analyze it
 <% end %>
 <% end %>
 
-<hr>
-<%= link_to "Task", :get_task => "Get_Task", :class => "btn" %>
-<%= link_to "Analyze", :get_details => "AnalyzePhoto", :class => "btn" %>
-<hr>
 <h4>
-<%= @details%><br>
+<%# @details%><br>
 </h4>
 
 </div>
