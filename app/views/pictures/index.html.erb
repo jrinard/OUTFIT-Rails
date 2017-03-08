@@ -17,7 +17,7 @@
       <div class="description"><%= picture.description %></div>
     </div>
 
-    <div id="block2 ">
+    <div id="block2">
       <%= link_to image_tag("btn-fav-minor.png"), {:fav => picture.id} %>
       <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
       <%= link_to image_tag("btn-edit.png", :class => "btn marginL"), picture_path(picture) %>

@@ -261,12 +261,14 @@ input[type="image"]
   width: 50%;
   margin-top: 0;
   float:left;
+  display: block;
+  overflow-x: hidden;
 }
 
 #block2 {
-  background-color: #999;
+  // background-color: #999;
   width: 50%;
-  margin-top: 0;
+  margin-top: -80px;
   margin-left: 50%;
   padding-top: 10px;
   // float: right;
