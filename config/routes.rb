@@ -5,9 +5,10 @@ Rails.application.routes.draw do
 
   resources :favorite, :only => [:index]
   resources :search, :only => [:index]
+  resources :events, :only => [:index]
 
   resources :pictures do
     resources :events
   end
-  
+
 end

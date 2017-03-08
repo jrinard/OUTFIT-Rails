@@ -1,9 +1,16 @@
 class EventsController < ApplicationController
 
+def index
+  @events = Event.all
+  # @photo = Picture.find(params[:picture_id])
+  # tag = Event.find(params[:id])
+  # @photoArray = tag.findTaggedPhotos
+end
+
     def show
       @photo = Picture.find(params[:picture_id])
-          tag = Event.find(params[:id])
-          @photoArray = tag.findTaggedPhotos
+      tag = Event.find(params[:id])
+      @photoArray = tag.findTaggedPhotos
     end
 
     def new

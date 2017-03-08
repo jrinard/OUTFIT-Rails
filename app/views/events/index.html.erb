@@ -1,0 +1,21 @@
+
+  <h3 class="center">Events</h3>
+
+
+
+  <% if @events %>
+    <% @events.each do |event| %>
+    <div class="col-sm-12 col-md-6">
+      <div class="well">
+        <%= event.name %>
+      </div><!-- well end -->
+
+  </div><!-- col end -->
+
+    <% end %>
+    <% else %>
+      <div class="center grey"><br><br>
+        There are no events yet!
+      </div>
+   </div><!-- alt col end -->
+<% end %>
