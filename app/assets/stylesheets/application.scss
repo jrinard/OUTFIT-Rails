@@ -172,7 +172,8 @@ a:link {
 
 .btn {
   margin: 0 auto;
-  padding: 0px 2px;
+  // padding: 0px 2px;
+  padding: 8px;
 }
 
 
@@ -305,9 +306,8 @@ input[type="image"]
 
 .pink {
   border-radius: 5px;
-  font-size: 1.2em;
   margin: 5px;
-  padding: 5px;
+
 }
 
 .pink a:link {
@@ -329,11 +329,11 @@ input[type="image"]
   color: #fff;
   background-color: #c659ab;
 }
-
-.btn-teal {
-  background-color: #409b8a;
-
-}
+//
+// .btn-teal {
+//   background-color: #409b8a;
+//
+// }
 
 .teal {
   font-size: 1.2em;
@@ -364,7 +364,7 @@ input[type="image"]
 
 .blue {
   border-radius: 5px;
-  font-size: 1em;
+  font-size: .9em;
   margin: 5px;
   padding: 5px;
 }
@@ -387,6 +387,33 @@ input[type="image"]
 .blue a:hover {
   color: #fff;
   background-color: #2379b4;
+}
+
+
+
+.event-text {
+  font-size: 2em;
+  margin: 5px;
+  padding: 5px;
+}
+
+.event-text a:link {
+  color: #fff;
+  background-color: #409b8a;
+
+}
+.event-text a:visited {
+  color: #fff;
+}
+
+.event-text a:active {
+  color: #fff;
+  background-color: #409b8a;
+}
+
+.event-text a:hover {
+  color: #fff;
+  background-color: #409b8a;
 }
 
 
