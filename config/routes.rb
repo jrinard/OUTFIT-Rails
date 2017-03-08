@@ -3,6 +3,6 @@ Rails.application.routes.draw do
     resources :pictures
   root :to => 'home#index'
 
-  get 'favorites', :to => 'favorite#index'
-
+  resources :favorite, :only => [:index]
+  resources :search, :only => [:index]
 end

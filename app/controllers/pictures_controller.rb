@@ -5,7 +5,6 @@ class PicturesController < ApplicationController
 def index
   @user = current_user
   @pictures = @user.pictures.order(id: :desc)
-
   @showdetail = false
   if params[:showdetail]
     @showdetail = true
@@ -15,6 +14,13 @@ def index
   if params[:logout]
     @showlogin = true
   end
+
+  if params[:fav]
+    @picture = Picture.find(params[:fav])
+    @picture.liked_by current_user
+    @picture.update(:extra => "fav")
+  end
+
 
 end
 
@@ -87,7 +93,7 @@ end
 
 
 def picture_params
-   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra)
+   params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra, :favorite)
 end
 
 

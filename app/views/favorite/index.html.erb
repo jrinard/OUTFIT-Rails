@@ -1,0 +1,66 @@
+
+<div class="col-sm-12">
+  <h3 class="center">Favorites</h3>
+</div>
+
+<% if @pictures.any? %>
+  <% @pictures.each do |picture| %>
+  <div class="col-sm-12 col-md-6">
+    <div class="well">
+    <%= image_tag picture.image, :class => "image-size img-responsive round" %>
+
+  <div id="block1">
+    <span class="month"><%= picture.created_at.strftime("%b") %></span>
+    <span class="day"><%= picture.created_at.strftime("%d") %></span>
+
+    <div class="title"><%= picture.title %></div>
+    <div class="description"><%= picture.description %></div>
+  </div>
+
+  <div id="block2 ">
+    <%= link_to image_tag("btn-fav-minor.png", :class => "btn marginL"), picture_path(picture) %>
+    <%= link_to image_tag("btn-edit.png", :class => "btn marginL"), picture_path(picture) %>
+  </div>
+
+  <div id="block-bottom">
+      <%= link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
+       <!-- <button class="toggle btn">Details</button> -->
+    <span class="time"><%# time_ago_in_words(picture.created_at) %></span>
+  </div>
+
+
+<% if @showdetail === true %>
+
+
+  <div id="details">
+    <hr>
+    <% if picture.body != "" %>
+      <span class="type">Body:</span> <span class="detail"><%= picture.body %></span><br>
+    <% end %>
+    <% if picture.legs != ""  %>
+      <span class="type">Legs:</span> <span class="detail"> <%= picture.legs %></span><br>
+    <% end %>
+    <% if picture.feet != "" %>
+      <span class="type">Feet:</span> <span class="detail"> <%= picture.feet %></span><br>
+    <% end %>
+    <% if picture.hands != "" %>
+      <span class="type">Hands:</span> <span class="detail"> <%= picture.hands %></span><br>
+    <% end %>
+    <% if picture.head != "" %>
+      <span class="type">Head:</span> <span class="detail"> <%= picture.head %></span><br>
+    <% end %>
+    <% if picture.extra != "" %>
+      <span class="type">Extra:</span> <span class="detail"> <%= picture.extra %></span><br>
+    <% end %>
+  </div><!-- detail end -->
+
+<% end %><!-- showdetail end -->
+
+
+</div><!-- well end -->
+</div><!-- col end -->
+   <% end %>
+     <% else %>
+       <li>There are no pictures yet!</li>
+    </div><!-- alt col end -->
+<% end %>
