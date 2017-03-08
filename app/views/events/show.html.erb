@@ -1,11 +1,45 @@
+<div class="col-sm-12">
+  <h3 class="center">Results</h3>
 
-<h1>Results</h1>
-<% if @pictureArray.any? %>
-  <% @pictureArray.each do |photo| %>
-  <%= image_tag photo.image %>
+
+
+<% if @photoArray.any? %>
+  <% @photoArray.each do |picture| %>
+    <div class="col-xs-6">
+      <div class="well well-small">
+      <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
+
+    <div id="block1-mini">
+      <span class="month"><%= picture.created_at.strftime("%b") %></span>
+      <span class="day"><%= picture.created_at.strftime("%d") %></span>
+
+      <div class="title"><%= picture.title %></div>
+    </div>
+
+    <div id="block2-mini">
+      <%= link_to image_tag("btn-fav-minor.png"), {:fav => picture.id} %>
+      <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
+      <%= link_to image_tag("btn-edit.png", :class => "btn marginL"), picture_path(picture) %>
+    </div>
+
+    <div id="block-bottom">
+
+      <span class="time"><%= time_ago_in_words(picture.created_at) %></span>
+    </div>
+
+  </div><!-- well end -->
+  </div><!-- col end -->
+
+
+
+
+
   <% end %>
 <% else %>
   <p>
-    There are no pictures with this event name.
+    There are no photos with this tag name.
   </p>
 <% end %>
+</div>
+</div>
+</div>

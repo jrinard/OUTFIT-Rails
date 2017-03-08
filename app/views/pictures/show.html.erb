@@ -37,7 +37,7 @@
       <% if @picture.events.any? %>
         <% @picture.events.each do |event| %>
         <div class="teal btn">
-          <%= link_to event.name, picture_event_path(@picture, event.id), :class => "btn-lg" %>
+          <%= link_to event.name, picture_event_path(@picture, event.id), :class => "btn-lg" %> 
 
       <div class="pink btn">
         <%= link_to "Delete", picture_event_path(@picture, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>

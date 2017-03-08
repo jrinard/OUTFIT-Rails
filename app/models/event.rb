@@ -3,12 +3,12 @@ class Event < ApplicationRecord
 
   validates :name, :presence => true
 
-  def findEventPhotos
-    pictures = Picture.all
+  def findTaggedPhotos
+    photos = Picture.all
     photoArray = []
-    pictures.each do |photo|
-      photo.events.each do |event|
-        if event.name == self.name
+    photos.each do |photo|
+      photo.events.each do |tag|
+        if tag.name == self.name
         photoArray.push(photo)
         end
       end
