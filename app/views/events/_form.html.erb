@@ -1,0 +1,12 @@
+<div class="well">
+  <%= form_for [@picture, @event] do |f| %>
+    <div class="field">
+      <%= f.text_field :name, :placeholder => 'Event', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field center">
+      <%= f.submit "Save", :class => "btn-lg btn-primary" %>
+    </div>
+  <% end %>
+</div>
+
+<!-- add hidden field -->

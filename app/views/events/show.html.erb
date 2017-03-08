@@ -1,0 +1,11 @@
+
+<h1>Results</h1>
+<% if @pictureArray.any? %>
+  <% @pictureArray.each do |photo| %>
+  <%= image_tag photo.image %>
+  <% end %>
+<% else %>
+  <p>
+    There are no pictures with this event name.
+  </p>
+<% end %>

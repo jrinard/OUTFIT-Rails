@@ -13,6 +13,8 @@ def index
   if params[:logout]
     @showlogin = true
   end
+
+  @pictures = Picture.all
 end
 
 def new
@@ -24,7 +26,7 @@ def create
 end
 
 def show
-
+  @pictureSearchResults = Picture.basic_search(params[:name])
 end
 
 end

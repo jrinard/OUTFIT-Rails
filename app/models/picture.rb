@@ -1,5 +1,7 @@
 class Picture < ApplicationRecord
   belongs_to :user
+  has_many :events
+  
   acts_as_votable
   validates :title, :presence => true
 

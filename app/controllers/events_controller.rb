@@ -3,12 +3,14 @@ class EventsController < ApplicationController
     def show
       @picture = Picture.find(params[:picture_id])
       event = Event.find(params[:id])
-      @pictureArray = event.findEventgedPictures
+      @pictureArray = event.findEventPictures
     end
 
     def new
       @picture = Picture.find(params[:picture_id])
+      # @event = Event.new(event_params)
       @event = @picture.events.new
+      # @event = Event.new
     end
 
     def create
