@@ -20,7 +20,7 @@
 //
 //   $(".toggle").click(function() {
 //     console.log("Details now showing");
-//     $("#details").toggle();
+//     $("#details_<%= picture.id %>").toggle();
 //   });
 //
 //

@@ -1,30 +1,29 @@
   <div class="col-xs-12">
     <h3 class="center">Events</h3>
 
-      <% if @events %>
+      <% if @events.any? %>
         <% @events.each do |event| %>
           <div class="well">
 
-  <div class="col-xs-6">
+
+
+          <div class="col-xs-6">
             <div class="btn event-text-larger">
               <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
             </div><!-- teal end -->
-</div>
+          </div>
 
-<div class="col-xs-3">
-          <div class="blue btn2">
-            <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
-          </div><br><!-- blue end -->
+          <div class="col-xs-3">
+            <div class="blue btn2">
+              <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
+            </div><br><!-- blue end -->
+          </div>
 
-</div>
-
-  <div class="col-xs-3">
+          <div class="col-xs-3">
             <div class="pink btn2 shift-up">
               <%= link_to "Delete", picture_event_path(event.picture_id, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
             </div><br> <!-- pink end -->
-</div> <br><br>
-
-
+          </div> <br><br>
 
           </div><!-- well end1 -->
         <% end %>

@@ -1,7 +1,8 @@
 class EventsController < ApplicationController
 
     def index
-      @events = Event.all
+      @events = Event.select('distinct on (name) *').order('name desc') # find all unqiue events
+
       @showlogin = false
       if params[:logout]
         @showlogin = true
