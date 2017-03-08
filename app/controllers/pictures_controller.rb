@@ -20,9 +20,6 @@ def index
     @picture.liked_by current_user
     @picture.update(:extra => "fav")
   end
-
-
-
 end
 
 def show
@@ -96,7 +93,5 @@ end
 def picture_params
    params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra, :favorite)
 end
-
-
 
 end
