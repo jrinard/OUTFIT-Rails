@@ -1,21 +1,39 @@
+  <div class="col-xs-12">
+    <h3 class="center">Events</h3>
 
-  <h3 class="center">Events</h3>
+      <% if @events %>
+        <% @events.each do |event| %>
+          <div class="well">
+
+  <div class="col-xs-6">
+            <div class="btn event-text-larger">
+              <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
+            </div><!-- teal end -->
+</div>
+
+<div class="col-xs-3">
+          <div class="blue btn">
+            <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
+          </div><br><!-- blue end -->
+
+</div>
+
+  <div class="col-xs-3">
+            <div class="pink btn shift-up">
+              <%= link_to "Delete", picture_event_path(event.picture_id, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
+            </div><br> <!-- pink end -->
+</div> <br><br>
 
 
 
-  <% if @events %>
-    <% @events.each do |event| %>
-    <div class="col-sm-12 col-md-6">
-      <div class="well">
-        <%= event.name %>
-      </div><!-- well end -->
+          </div><!-- well end1 -->
+        <% end %>
+        <% else %>
+            <div class="center grey"><br><br>
+              There are no events yet!
+            </div>
+          </div><!-- alt well end2 -->
+       <% end %>
 
-  </div><!-- col end -->
-
-    <% end %>
-    <% else %>
-      <div class="center grey"><br><br>
-        There are no events yet!
-      </div>
-   </div><!-- alt col end -->
-<% end %>
+  </div>
+  <!-- col end -->
