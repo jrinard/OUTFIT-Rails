@@ -18,7 +18,8 @@
   </div>
 
   <div id="block2 ">
-    <%= link_to image_tag("btn-fav-minor.png", :class => "btn marginL"), picture_path(picture) %>
+    <%= link_to image_tag("btn-fav-minor-grey.png"), {:unfav => picture.id} %>
+    <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
     <%= link_to image_tag("btn-edit.png", :class => "btn marginL"), picture_path(picture) %>
   </div>
 
@@ -49,9 +50,6 @@
     <% if picture.head != "" %>
       <span class="type">Head:</span> <span class="detail"> <%= picture.head %></span><br>
     <% end %>
-    <% if picture.extra != "" %>
-      <span class="type">Extra:</span> <span class="detail"> <%= picture.extra %></span><br>
-    <% end %>
   </div><!-- detail end -->
 
 <% end %><!-- showdetail end -->
@@ -61,6 +59,8 @@
 </div><!-- col end -->
    <% end %>
      <% else %>
-       <li>There are no pictures yet!</li>
+     <div class="center grey"><br><br>
+       There are no favorites yet!
+     </div>
     </div><!-- alt col end -->
 <% end %>

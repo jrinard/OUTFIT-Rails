@@ -5,8 +5,7 @@ class FavoriteController < ApplicationController
 
  def index
    @user = current_user
-   @pictures = @user.pictures.all
-   @pictures = Picture.where(user_id: current_user.id).where(date: Time.now)
+   @pictures = Picture.all.where(extra: "fav")
 
    @showdetail = false
    if params[:showdetail]
@@ -16,6 +15,12 @@ class FavoriteController < ApplicationController
    @showlogin = false
    if params[:logout]
      @showlogin = true
+   end
+
+   if params[:unfav]
+     @picture = Picture.find(params[:unfav])
+     @picture.liked_by current_user
+     @picture.update(:extra => "nil")
    end
 
  end
