@@ -1,12 +1,25 @@
 class Picture < ApplicationRecord
   belongs_to :user
   has_many :events
-  
+
   acts_as_votable
   validates :title, :presence => true
 
   has_attached_file :image, styles: { medium: "350x350>" }, default_url: "missing.png"
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
+
+
+  before_save :tileize_picture
+  def tileize_picture
+    self.title = self.title.titleize
+    self.description = self.description.titleize
+    self.body = self.body.titleize
+    self.legs = self.legs.titleize
+    self.feet = self.feet.titleize
+    self.hands = self.hands.titleize
+    self.head = self.head.titleize
+  end
+
 
   def get_task
     begin
