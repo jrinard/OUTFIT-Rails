@@ -79,6 +79,11 @@ body {
 .center {
   text-align: center;
 }
+.center-auto {
+  margin: 0 auto;
+  margin-left: 0;
+  margin-right: 0;
+}
 
 
 .container {
@@ -293,7 +298,14 @@ input[type="image"]
   margin-left: 50%;
   padding-top: 10px;
   padding-left: 40px;
+}
 
+#block2-mini {
+  width: 50%;
+  margin-top: -80px;
+  margin-left: 50%;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 #block-bottom {
