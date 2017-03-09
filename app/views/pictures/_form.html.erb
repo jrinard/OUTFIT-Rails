@@ -14,8 +14,8 @@
         <%= f.hidden_field :user_id, :value => current_user.id %>
         <%# f.hidden_field :favorite, :value => "asf" %>
       </div>
-      <div id="image" class="field form-text-small">
-        <%= f.file_field :image, class: 'btn-image center-image-button' %>
+      <div class="field form-text-small">
+        <%= f.file_field :image, class: 'center-image-button' %>
       </div>
         <div class="field center">
         <%= f.submit "Save", :class => "btn-lg btn-primary"%>

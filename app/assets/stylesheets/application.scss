@@ -5,6 +5,18 @@
 // OVERALL
 
 html {
+  height: 120%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background: #70bg32;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to bottom , #413f7a, #1680b1);
+    background: -moz-linear-gradient( to bottom , #413f7a, #1680b1);
+    background: -ms-linear-gradient( to bottom , #413f7a, #1680b1);
+    background: -o-linear-gradient( to bottom , #413f7a, #1680b1);
+    background: linear-gradient( to bottom , #413f7a, #1680b1);
+
 
 }
 * {
@@ -49,7 +61,6 @@ body {
   // background-color: #222;
   // background-image: url("bg.jpg");
   margin-right: -10px;
-
   background: linear-gradient(to bottom, #413f7a , #1680b1);
   height: 100%;
   min-height: 800px;
@@ -125,6 +136,7 @@ body {
   margin-right: 0px;
   margin-left: 50px;
   padding-bottom: 5px;
+  max-height: 55px;
 }
 
 //
@@ -216,7 +228,6 @@ a:link {
 
 .btn-image {
   height: 50px;
-  font-size: 20px;
 }
 
 .form-group {
