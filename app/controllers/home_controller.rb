@@ -18,6 +18,7 @@ class HomeController < ApplicationController
 
   def show
     @photoSearchResults = Picture.fuzzy_search(params[:title])
+    @searchbydate = Picture.where "DATE(created_at) = DATE(?)", params[:date]
   end
 
 end
