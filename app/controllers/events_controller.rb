@@ -13,6 +13,13 @@ class EventsController < ApplicationController
       @photo = Picture.find(params[:picture_id])
       tag = Event.find(params[:id])
       @photoArray = tag.findTaggedPhotos2
+
+      if params[:fav]
+        @picture = Picture.find(params[:fav])
+        @picture.liked_by current_user
+        @picture.update(:extra => "fav")
+      end
+
     end
 
     def new
