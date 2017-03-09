@@ -10,41 +10,41 @@
   </head>
   <body>
     <%# image_tag("bg.jpg", :class => "bg img-responsive") %>
+    <nav class = "nav navbar-custom">
+      <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
+      <% if current_user %>
+      <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
+      <% else %>
+      <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
+      <% end %>
+    </div> <!-- col end -->
+
+
+    <!-- LOGIN -->
+    <div class="col-sm-12">
+      <div class="center grey">
+        <%= flash[:notice] %>
+      </div>
+
+      <% if @showlogin === true %>
+      <div class="nav login-text navbar-custom">
+        <% if current_user %>
+        <!-- <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> -->
+        <span class="white"><%= current_user.username %></span> |
+        <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
+        <% else %>
+        <!-- <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span> -->
+        <%= link_to "Log-in", new_user_session_path %></a> |
+        <%= link_to "Signup", new_user_registration_path %></a>
+        <% end %>
+      </div> <!-- login end -->
+      <% end %>
+    </nav>
       <div class="container">
 
 <div class="row">
 
 <div class="col-sm-12">
-    <nav class = "nav navbar-custom">
-      <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
-      <% if current_user %>
-        <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
-      <% else %>
-        <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
-      <% end %>
-</div> <!-- col end -->
-
-
-<!-- LOGIN -->
-<div class="col-sm-12">
-  <div class="center grey">
-          <%= flash[:notice] %>
-  </div>
-
-  <% if @showlogin === true %>
-      <div class="nav login-text navbar-custom">
-        <% if current_user %>
-          <!-- <span class="glyphicon glyphicon-ok-circle" aria-hidden="true"></span> -->
-          <span class="white"><%= current_user.username %></span> |
-          <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
-        <% else %>
-          <!-- <span class="glyphicon glyphicon-remove-circle" aria-hidden="true"></span> -->
-          <%= link_to "Log-in", new_user_session_path %></a> |
-          <%= link_to "Signup", new_user_registration_path %></a>
-        <% end %>
-      </div> <!-- login end -->
-  <% end %>
-      </nav>
 </div> <!-- col end -->
 
 

@@ -13,7 +13,7 @@ class HomeController < ApplicationController
       @picture.liked_by current_user
       @picture.update(:extra => "fav")
     end
-    
+
   end
 
   def show
