@@ -17,7 +17,7 @@ class HomeController < ApplicationController
   end
 
   def show
-    @photoSearchResults = Picture.basic_search(params[:title])
+    @photoSearchResults = Picture.fuzzy_search(params[:title])
   end
 
 end

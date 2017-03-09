@@ -1,16 +1,13 @@
 <div class="col-sm-12">
-
   <div class="center">
       <h1>Search</h1>
   <div class="well">
-
       <%= form_tag(show_path, method: 'post', class:'') do %>
-      <%= text_field_tag :title, "", class: "form-control", placeholder: "Search" %>
+      <%= text_field_tag :title, "", class: "form-control", placeholder: "Search by Outfit Name" %>
         <br>
-      <button type="submit" class="btn btn-primary"> Search</button>
+        <button type="submit" class="btn-lg btn-primary">Search</button>
       <% end %>
 
   </div>
   </div>
-
 </div>
