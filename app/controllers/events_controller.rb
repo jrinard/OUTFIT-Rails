@@ -2,10 +2,9 @@ class EventsController < ApplicationController
 
     def index
 
-      @user = current_user
-
-      @events = Event.find(:all, :conditions => { :user_id => current_user.id } )
-
+      # @events = Event.find(:all, :conditions => { :user_id => current_user.id } )
+      #
+      @events = Event.all
 
       # @events = Event.select('distinct on (name) *').order('name desc').where() # find all unqiue events
       #
@@ -38,10 +37,7 @@ class EventsController < ApplicationController
 
     def create
       @picture = Picture.find(params[:picture_id])
-
-
       @event = @picture.events.new(event_params)
-      binding.pry
       if @event.save
         flash[:notice] = "Event added!"
         redirect_to pictures_path
@@ -52,28 +48,28 @@ class EventsController < ApplicationController
     end
 
     def edit
-       @picture = Picture.find(params[:picture_id])
-        @event = Event.find(params[:id])
-      end
-
-      def update
-        @picture = Picture.find(params[:picture_id])
-        @event = Event.find(params[:id])
-        if @event.update(event_params)
-          flash[:notice] = "Event updated!"
-          redirect_to picture_path(@picture.id)
-        else
-          render :edit
-        end
-      end
-
-    def destroy
       @picture = Picture.find(params[:picture_id])
       @event = Event.find(params[:id])
-      @event.destroy
-      flash[:notice] = "Event deleted!"
-      redirect_to picture_path(@picture)
     end
+
+    def update
+      @picture = Picture.find(params[:picture_id])
+      @event = Event.find(params[:id])
+      if @event.update(event_params)
+        flash[:notice] = "Event updated!"
+        redirect_to picture_path(@picture.id)
+      else
+        render :edit
+      end
+    end
+
+  def destroy
+    @picture = Picture.find(params[:picture_id])
+    @event = Event.find(params[:id])
+    @event.destroy
+    flash[:notice] = "Event deleted!"
+    redirect_to picture_path(@picture)
+  end
 
   private
     def event_params
