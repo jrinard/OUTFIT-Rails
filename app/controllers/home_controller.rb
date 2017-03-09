@@ -13,12 +13,10 @@ class HomeController < ApplicationController
       @picture.liked_by current_user
       @picture.update(:extra => "fav")
     end
-
   end
 
   def show
     @photoSearchResults = Picture.fuzzy_search(params[:title])
     @searchbydate = Picture.where "DATE(created_at) = DATE(?)", params[:date]
   end
-
 end

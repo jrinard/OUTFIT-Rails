@@ -1,7 +1,5 @@
 class PicturesController < ApplicationController
 
-# before_action :authenticate_user!
-
 def index
   @user = current_user
   @pictures = @user.pictures.order(id: :desc)
@@ -47,7 +45,7 @@ def create
     render :new, notice: 'There was an error.'
    end
 end
-#
+
 # def create
 #    @user = current_user
 #    @picture = Picture.new(picture_params)
@@ -88,7 +86,6 @@ def update
     render :edit
   end
 end
-
 
 def picture_params
    params.require(:picture).permit(:image, :title, :description, :url, :task_id, :user_id, :body, :legs, :feet, :hands, :head, :extra, :favorite)

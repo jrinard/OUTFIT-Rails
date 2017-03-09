@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/JoshuaRinard/Desktop/OUTFIT-Rails/spec/features/picture_pages_path_spec.rb": [
+      "/Users/Guest/Desktop/OUTFIT-Rails/spec/features/picture_pages_path_spec.rb": [
         1,
         null,
         1,
@@ -39,7 +39,7 @@
         null,
         null
       ],
-      "/Users/JoshuaRinard/Desktop/OUTFIT-Rails/spec/models/event_spec.rb": [
+      "/Users/Guest/Desktop/OUTFIT-Rails/spec/models/event_spec.rb": [
         1,
         null,
         null,
@@ -49,7 +49,7 @@
         2,
         null
       ],
-      "/Users/JoshuaRinard/Desktop/OUTFIT-Rails/spec/models/pictures_spec.rb": [
+      "/Users/Guest/Desktop/OUTFIT-Rails/spec/models/pictures_spec.rb": [
         1,
         null,
         null,
@@ -58,7 +58,7 @@
         2,
         null
       ],
-      "/Users/JoshuaRinard/Desktop/OUTFIT-Rails/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/OUTFIT-Rails/spec/models/user_spec.rb": [
         1,
         null,
         null,
@@ -70,6 +70,6 @@
         null
       ]
     },
-    "timestamp": 1489038886
+    "timestamp": 1489097475
   }
 }

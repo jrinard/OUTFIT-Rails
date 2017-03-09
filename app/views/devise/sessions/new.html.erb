@@ -1,12 +1,12 @@
 <div class="col-sm-12">
-<h1 class="center">Log in</h1>
+  <h1 class="center">Log in</h1>
   <div class="form well">
     <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
       <div class="field">
-        <%= f.email_field :email, autofocus: true, :class => "form-control input-lg", :placeholder => "Email", :value => "j@email.com" %>
+        <%= f.email_field :email, autofocus: true, :class => "form-control input-lg", :placeholder => "Email"%>
       </div>
       <div class="field">
-        <%= f.password_field :password, autocomplete: "off", :class => "form-control input-lg", :placeholder => "Password", :value => "password"   %>
+        <%= f.password_field :password, autocomplete: "off", :class => "form-control input-lg", :placeholder => "Password" %>
       </div>
       <% if devise_mapping.rememberable? -%>
         <div class="field form-text-small">
@@ -18,7 +18,6 @@
         <%= f.submit "Log in", :class => "btn-lg btn-primary" %>
       </div>
     <% end %>
-
     <div class="form-text-small">
       <%= render "devise/shared/links" %>
     </div>
