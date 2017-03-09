@@ -1,24 +1,35 @@
-# README
+### Closets App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app allows the user to login to there own account.
+Post outfits with details.
+Search for those outfits.
+Assign events to those outfits and search via event.
 
-Things you may want to cover:
+* Ruby version - 2.3.1
 
-* Ruby version
+### Database Setup
 
-* System dependencies
+ * `postgres` in Terminal
+ * `rails db:setup`
 
-* Configuration
+### Run Ap
 
-* Database creation
+* `bundle install`
+* `rails s`
+* Visit localhost:3000 in browser
 
-* Database initialization
+### Run Tests
+* `rspec` in terminal
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+### Support and Contact Details
 
-* Deployment instructions
+* Github for Joshua Rinard: https://github.com/jrinard
 
-* ...
+* Email: jrinard@hotmail.com
+
+### License
+
+MIT
+
+Copyright (c) 2017 Joshua Rinard
