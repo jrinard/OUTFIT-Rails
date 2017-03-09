@@ -4,35 +4,28 @@
       <% if @events.any? %>
         <% @events.each do |event| %>
           <div class="well">
-
-
-
-          <div class="col-xs-6">
-            <div class="btn event-text-larger">
-              <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
-            </div><!-- teal end -->
-          </div>
-
-          <div class="col-xs-3">
-            <div class="blue btn2">
-              <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
-            </div><br><!-- blue end -->
-          </div>
-
-          <div class="col-xs-3">
-            <div class="pink btn2 shift-up">
-              <%= link_to "Delete", picture_event_path(event.picture_id, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
-            </div><br> <!-- pink end -->
-          </div> <br><br>
-
+            <div class="col-xs-6">
+              <div class="btn event-text-larger">
+                <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
+              </div><!-- teal end -->
+            </div>
+            <div class="col-xs-3">
+              <div class="blue btn2">
+                <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
+              </div><br><!-- blue end -->
+            </div>
+            <div class="col-xs-3">
+              <div class="pink btn2 shift-up">
+                <%= link_to "Delete", picture_event_path(event.picture_id, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
+              </div><br> <!-- pink end -->
+            </div> <br><br>
           </div><!-- well end1 -->
         <% end %>
         <% else %>
+          <div class="well">
             <div class="center grey"><br><br>
               There are no events yet!
             </div>
-          </div><!-- alt well end2 -->
-       <% end %>
-
-  </div>
-  <!-- col end -->
+          </div>
+        <% end %>
+     </div><!-- col end -->
