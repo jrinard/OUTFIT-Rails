@@ -81,7 +81,8 @@ def update
 
   def destroy
     @picture = Picture.find(params[:id])
-    if @picture.destroy
+    if @picture.events.destroy_all
+      @picture.destroy
     flash[:notice] = "Picture deleted!"
     redirect_to pictures_path
   else

@@ -44,7 +44,7 @@
           <%= link_to event.name, picture_event_path(@picture, event.id), :class => "btn-lg" %>
 
           <div class="pink btn">
-            <%= link_to "Delete", picture_event_path(@picture, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
+            <%= link_to "Delete", picture_event_path(@picture, event), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
 
             <div class="blue btn">
               <%= link_to "Rename", edit_picture_event_path(@picture, event.id), :class => "btn" %> <br>

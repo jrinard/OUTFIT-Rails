@@ -12,12 +12,6 @@ class Picture < ApplicationRecord
   before_save :tileize_picture
   def tileize_picture
     self.title = self.title.titleize
-    self.description = self.description.titleize
-    self.body = self.body.titleize
-    self.legs = self.legs.titleize
-    self.feet = self.feet.titleize
-    self.hands = self.hands.titleize
-    self.head = self.head.titleize
   end
 
 
