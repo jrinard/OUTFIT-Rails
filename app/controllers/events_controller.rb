@@ -1,7 +1,16 @@
 class EventsController < ApplicationController
 
     def index
-      @events = Event.select('distinct on (name) *').order('name desc') # find all unqiue events
+
+      @user = current_user
+
+      @events = Event.find(:all, :conditions => { :user_id => current_user.id } )
+
+
+      # @events = Event.select('distinct on (name) *').order('name desc').where() # find all unqiue events
+      #
+      # @events = @events.select('distinct on (name) *').order('name desc').where() # find all unqiue events
+
 
       @showlogin = false
       if params[:logout]
@@ -29,7 +38,10 @@ class EventsController < ApplicationController
 
     def create
       @picture = Picture.find(params[:picture_id])
+
+
       @event = @picture.events.new(event_params)
+      binding.pry
       if @event.save
         flash[:notice] = "Event added!"
         redirect_to pictures_path
@@ -65,6 +77,6 @@ class EventsController < ApplicationController
 
   private
     def event_params
-      params.require(:event).permit(:name)
+      params.require(:event).permit(:name, :user_id)
     end
   end

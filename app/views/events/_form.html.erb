@@ -1,5 +1,8 @@
 <div class="well">
   <%= form_for [@picture, @event] do |f| %>
+
+    <%= f.hidden_field :user_id, :value => current_user.id %>
+
     <div class="field">
       <%= f.text_field :name, :placeholder => 'Event', :class => 'form-control input-lg' %>
     </div>
@@ -8,5 +11,3 @@
     </div>
   <% end %>
 </div>
-
-<!-- add hidden field -->
