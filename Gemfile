@@ -9,13 +9,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
-gem 'devise'
-gem 'paperclip', '~> 4.1'
-gem 'rest-client', '>= 2.0'
+gem 'devise'  # user authentication
+gem 'paperclip', '~> 4.1' # images
+gem 'rest-client', '>= 2.0' # api
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'acts_as_votable', '~> 0.10.0'
-gem 'httparty'
-gem 'aws-sdk', '< 2.0'
+gem 'httparty' # api
+gem 'aws-sdk', '< 2.0' # online storage
+gem 'textacular'  # Searching
 
 group :development, :test do
   gem 'byebug', platform: :mri
