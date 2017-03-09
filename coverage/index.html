@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-03-08T16:44:17-08:00">2017-03-08T16:44:17-08:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-03-08T21:54:46-08:00">2017-03-08T21:54:46-08:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.49
+         1.26
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>4</b> files in total.
-    <b>12</b> relevant lines. 
-    <span class="green"><b>12</b> lines covered</span> and
+    <b>29</b> relevant lines. 
+    <span class="green"><b>29</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -51,17 +51,17 @@
     <tbody>
       
       <tr>
-        <td class="strong"><a href="#af24cc6707991d344d2fd8cf98dd46c5897a0004" class="src_link" title="spec/features/picture_pages_path_spec.rb">spec/features/picture_pages_path_spec.rb</a></td>
+        <td class="strong"><a href="#01ee019ff07e8f50a114c5d907f40c5ecbf8b21f" class="src_link" title="spec/features/picture_pages_path_spec.rb">spec/features/picture_pages_path_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>84</td>
+        <td>36</td>
+        <td>17</td>
+        <td>17</td>
         <td>0</td>
-        <td>0</td>
-        <td>0</td>
-        <td>0.0</td>
+        <td>1.1</td>
       </tr>
       
       <tr>
-        <td class="strong"><a href="#f4c7a3e964129dca7d2910e8a1f7ee61f004570a" class="src_link" title="spec/models/event_spec.rb">spec/models/event_spec.rb</a></td>
+        <td class="strong"><a href="#ec68a0db9576df90c762f98e0a21a4e22f9f9c62" class="src_link" title="spec/models/event_spec.rb">spec/models/event_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>8</td>
         <td>4</td>
@@ -71,7 +71,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#2f0ab4f48f05d41d586cf6d221983d83b9e8d653" class="src_link" title="spec/models/pictures_spec.rb">spec/models/pictures_spec.rb</a></td>
+        <td class="strong"><a href="#67346d40d57d3410caf22fe6111d887e42740b92" class="src_link" title="spec/models/pictures_spec.rb">spec/models/pictures_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>7</td>
         <td>3</td>
@@ -81,7 +81,7 @@
       </tr>
       
       <tr>
-        <td class="strong"><a href="#c4789c091f3707e9fb674459eb0a7bb074c22dd9" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
+        <td class="strong"><a href="#54cb998a76d89ec1f7dd30f6913608d3e114161b" class="src_link" title="spec/models/user_spec.rb">spec/models/user_spec.rb</a></td>
         <td class="green strong">100.0 %</td>
         <td>9</td>
         <td>5</td>
@@ -106,13 +106,13 @@
     
       <div class="source_files">
       
-        <div class="source_table" id="af24cc6707991d344d2fd8cf98dd46c5897a0004">
+        <div class="source_table" id="01ee019ff07e8f50a114c5d907f40c5ecbf8b21f">
   <div class="header">
     <h3>spec/features/picture_pages_path_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>0</b> relevant lines. 
-      <span class="green"><b>0</b> lines covered</span> and
+      <b>17</b> relevant lines. 
+      <span class="green"><b>17</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -120,515 +120,227 @@
   <pre>
     <ol>
       
-        <li class="never" data-hits="" data-linenumber="1">
+        <li class="covered" data-hits="1" data-linenumber="1">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"># require &#39;rails_helper&#39;</code>
+          <code class="ruby">require &#39;rails_helper&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="2">
           
           
-          <code class="ruby">#</code>
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="3">
+        <li class="covered" data-hits="1" data-linenumber="3">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"># describe &quot;Create Photos&quot; do</code>
+          <code class="ruby">describe &quot;Project Paths&quot;, type: :feature do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="4">
+        <li class="covered" data-hits="1" data-linenumber="4">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#   it &quot;Create and View Photo&quot; do</code>
+          <code class="ruby">  before(:each) do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="5">
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">#     user = FactoryGirl.create(:user)</code>
+          <code class="ruby">    @user = FactoryGirl.create(:user)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="6">
+        <li class="covered" data-hits="2" data-linenumber="6">
+          <span class="hits">2</span>
           
-          
-          <code class="ruby">#     visit &#39;/users/sign_in&#39;</code>
+          <code class="ruby">    login_as(@user, :scope =&gt; :user)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="7">
           
           
-          <code class="ruby">#     fill_in &#39;Email&#39;, :with =&gt; &#39;j@email.com&#39;</code>
+          <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="covered" data-hits="1" data-linenumber="8">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     fill_in &#39;Password&#39;, :with =&gt; &#39;password&#39;</code>
+          <code class="ruby">  describe &quot;Create and View Project&quot;, :vcr =&gt; true do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="9">
+        <li class="covered" data-hits="1" data-linenumber="9">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     click_on &#39;Log in&#39;</code>
+          <code class="ruby">    it &quot;allows the user to create new Project&quot; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="10">
+        <li class="covered" data-hits="1" data-linenumber="10">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     click_on &#39;You&#39;</code>
+          <code class="ruby">      visit new_picture_path</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="11">
+        <li class="covered" data-hits="1" data-linenumber="11">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     click_on &#39;New photo&#39;</code>
+          <code class="ruby">      fill_in &#39;Title&#39;, :with =&gt; &#39;Code&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="12">
+        <li class="covered" data-hits="1" data-linenumber="12">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     fill_in &#39;Image Title&#39;, :with =&gt; &#39;Denzel&#39;</code>
+          <code class="ruby">      fill_in &#39;Description&#39;, :with =&gt; &#39;Code&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="13">
           
           
-          <code class="ruby">#     fill_in &#39;Image Details&#39;, :with =&gt; &#39;details&#39;</code>
+          <code class="ruby">      # page.attach_file(&quot;#image&quot;, &#39;spec/fixtures/images/test.jpg&#39;)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="14">
+        <li class="covered" data-hits="1" data-linenumber="14">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     page.attach_file(&quot;Image File&quot;, &#39;spec/fixtures/images/test.jpg&#39;)</code>
+          <code class="ruby">      click_on &#39;Save&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="15">
+        <li class="covered" data-hits="1" data-linenumber="15">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     click_on &#39;Create Photo&#39;</code>
+          <code class="ruby">      expect(page).to have_content &#39;Code&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="16">
           
           
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
+          <code class="ruby">    end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="17">
+        <li class="covered" data-hits="1" data-linenumber="17">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#     expect(page).to have_content &#39;Denzel&#39;</code>
+          <code class="ruby">    it &quot;allows the user to fail at creating a picture&quot; do</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="18">
+        <li class="covered" data-hits="1" data-linenumber="18">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#   end</code>
+          <code class="ruby">      visit new_picture_path</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="19">
+        <li class="covered" data-hits="1" data-linenumber="19">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"># end</code>
+          <code class="ruby">      fill_in &#39;Description&#39;, :with =&gt; &#39;Code&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="20">
+        <li class="covered" data-hits="1" data-linenumber="20">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#</code>
+          <code class="ruby">      click_on &#39;Save&#39;</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="21">
+        <li class="covered" data-hits="1" data-linenumber="21">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby"># describe &quot;CRUD Photos&quot; do</code>
+          <code class="ruby">      expect(page).to have_content &#39;New Outfit&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="22">
           
           
-          <code class="ruby">#   it &quot;Edit Photo&quot; do</code>
+          <code class="ruby">    end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="23">
           
           
-          <code class="ruby">#     user = FactoryGirl.create(:user)</code>
+          <code class="ruby">  end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="24">
           
           
-          <code class="ruby">#     user = FactoryGirl.create(:photo)</code>
+          <code class="ruby">  # describe &quot;DELETES&quot;, :vcr =&gt; true do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="25">
           
           
-          <code class="ruby">#     visit &#39;/users/sign_in&#39;</code>
+          <code class="ruby">  #   it &quot;delete a job&quot; do</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="26">
           
           
-          <code class="ruby">#     fill_in &#39;Email&#39;, :with =&gt; &#39;j@email.com&#39;</code>
+          <code class="ruby">  #     visit new_picture_path</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="27">
           
           
-          <code class="ruby">#     fill_in &#39;Password&#39;, :with =&gt; &#39;password&#39;</code>
+          <code class="ruby">  #     fill_in &#39;Description&#39;, :with =&gt; &#39;Code&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="28">
           
           
-          <code class="ruby">#     click_on &#39;Log in&#39;</code>
+          <code class="ruby">  #     click_on &#39;Save&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="29">
           
           
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
+          <code class="ruby">  #     # click_link(&#39;edit&#39;)</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="30">
           
           
-          <code class="ruby">#     click_on &#39;Edit&#39;</code>
+          <code class="ruby">  #     find(&quot;#edit&quot;).click</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="31">
           
           
-          <code class="ruby">#     fill_in &#39;Image Title&#39;, :with =&gt; &#39;Halle Berry&#39;</code>
+          <code class="ruby">  #     # click_on &#39;Delete Project&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="32">
           
           
-          <code class="ruby">#     fill_in &#39;Image Details&#39;, :with =&gt; &#39;actress&#39;</code>
+          <code class="ruby">  #     expect(page).to_not have_content &#39;BIG&#39;</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="33">
           
           
-          <code class="ruby">#     page.attach_file(&quot;Image File&quot;, &#39;spec/fixtures/images/test2.jpg&#39;)</code>
+          <code class="ruby">  #   end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="34">
           
           
-          <code class="ruby">#     click_on &#39;Update Photo&#39;</code>
+          <code class="ruby">  # end</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="35">
           
           
-          <code class="ruby">#     expect(page).to have_content &#39;Halle Berry&#39;</code>
+          <code class="ruby"></code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="36">
           
           
-          <code class="ruby">#   end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="37">
-          
-          
-          <code class="ruby">#   it &quot;Delete Photo&quot; do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="38">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:user)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="39">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:photo)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="40">
-          
-          
-          <code class="ruby">#     visit &#39;/users/sign_in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="41">
-          
-          
-          <code class="ruby">#     fill_in &#39;Email&#39;, :with =&gt; &#39;j@email.com&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="42">
-          
-          
-          <code class="ruby">#     fill_in &#39;Password&#39;, :with =&gt; &#39;password&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="43">
-          
-          
-          <code class="ruby">#     click_on &#39;Log in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="44">
-          
-          
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="45">
-          
-          
-          <code class="ruby">#     click_on &#39;Delete photo&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="46">
-          
-          
-          <code class="ruby">#     expect(page).to_not have_content &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="47">
-          
-          
-          <code class="ruby">#   end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="48">
-          
-          
-          <code class="ruby"># end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="49">
-          
-          
-          <code class="ruby">#</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="50">
-          
-          
-          <code class="ruby">#</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="51">
-          
-          
-          <code class="ruby"># describe &quot;CRUD Tags&quot; do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="52">
-          
-          
-          <code class="ruby">#   it &quot;Add Tag&quot; do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="53">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:user)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="54">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:photo)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="55">
-          
-          
-          <code class="ruby">#     visit &#39;/users/sign_in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="56">
-          
-          
-          <code class="ruby">#     fill_in &#39;Email&#39;, :with =&gt; &#39;j@email.com&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="57">
-          
-          
-          <code class="ruby">#     fill_in &#39;Password&#39;, :with =&gt; &#39;password&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="58">
-          
-          
-          <code class="ruby">#     click_on &#39;Log in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="59">
-          
-          
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="60">
-          
-          
-          <code class="ruby">#     click_on &#39;Add Tag&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="61">
-          
-          
-          <code class="ruby">#     fill_in &#39;Tag Name&#39;, :with =&gt; &#39;actor&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="62">
-          
-          
-          <code class="ruby">#     click_on &#39;Create Tag&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="63">
-          
-          
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="64">
-          
-          
-          <code class="ruby">#     expect(page).to have_content &#39;actor&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="65">
-          
-          
-          <code class="ruby">#   end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="66">
-          
-          
-          <code class="ruby">#   it &quot;Rename and Delete Tag&quot; do</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="67">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:user)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="68">
-          
-          
-          <code class="ruby">#     user = FactoryGirl.create(:photo)</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="69">
-          
-          
-          <code class="ruby">#     visit &#39;/users/sign_in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="70">
-          
-          
-          <code class="ruby">#     fill_in &#39;Email&#39;, :with =&gt; &#39;j@email.com&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="71">
-          
-          
-          <code class="ruby">#     fill_in &#39;Password&#39;, :with =&gt; &#39;password&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="72">
-          
-          
-          <code class="ruby">#     click_on &#39;Log in&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="73">
-          
-          
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="74">
-          
-          
-          <code class="ruby">#     click_on &#39;Add Tag&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="75">
-          
-          
-          <code class="ruby">#     fill_in &#39;Tag Name&#39;, :with =&gt; &#39;actor&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="76">
-          
-          
-          <code class="ruby">#     click_on &#39;Create Tag&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="77">
-          
-          
-          <code class="ruby">#     click_on &#39;Denzel&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="78">
-          
-          
-          <code class="ruby">#     click_on &#39;Rename&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="79">
-          
-          
-          <code class="ruby">#     fill_in &#39;Tag Name&#39;, :with =&gt; &#39;Ghost&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="80">
-          
-          
-          <code class="ruby">#     click_on &#39;Update Tag&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="81">
-          
-          
-          <code class="ruby">#     click_on &#39;Ghost X&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="82">
-          
-          
-          <code class="ruby">#     expect(page).to_not have_content &#39;Ghost&#39;</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="83">
-          
-          
-          <code class="ruby">#   end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="84">
-          
-          
-          <code class="ruby"># end</code>
+          <code class="ruby">end</code>
         </li>
       
     </ol>
   </pre>
 </div>
       
-        <div class="source_table" id="f4c7a3e964129dca7d2910e8a1f7ee61f004570a">
+        <div class="source_table" id="ec68a0db9576df90c762f98e0a21a4e22f9f9c62">
   <div class="header">
     <h3>spec/models/event_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -694,7 +406,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="2f0ab4f48f05d41d586cf6d221983d83b9e8d653">
+        <div class="source_table" id="67346d40d57d3410caf22fe6111d887e42740b92">
   <div class="header">
     <h3>spec/models/pictures_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
@@ -754,7 +466,7 @@
   </pre>
 </div>
       
-        <div class="source_table" id="c4789c091f3707e9fb674459eb0a7bb074c22dd9">
+        <div class="source_table" id="54cb998a76d89ec1f7dd30f6913608d3e114161b">
   <div class="header">
     <h3>spec/models/user_spec.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>

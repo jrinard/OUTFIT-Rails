@@ -44,10 +44,10 @@ def create
      flash[:notice] = "Picture Saved!"
      redirect_to pictures_path
    else
-     render :new
+    render :new, notice: 'There was an error.'
    end
 end
-
+#
 # def create
 #    @user = current_user
 #    @picture = Picture.new(picture_params)
@@ -55,12 +55,11 @@ end
 #    if @picture.save
 #      format.html flash[:notice] = "Picture Saved!"
 #      format.js { redirect_to(fallback_location: pictures_path, notice: 'worked') }
-#     #  redirect_to pictures_path
 #    else
 #      format.html {render :new, notice: 'There was an error.'}
 #      format.js { redirect_back(fallback_location: pictures_path, notice: 'There was an error.') }
 #     end
-#    end
+#   end
 # end
 
 def edit
