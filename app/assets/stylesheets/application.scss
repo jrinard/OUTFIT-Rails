@@ -1,9 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-
 // OVERALL
-
 html {
   height: 120%;
     -webkit-background-size: cover;
@@ -16,8 +14,6 @@ html {
     background: -ms-linear-gradient( to bottom , #413f7a, #1680b1);
     background: -o-linear-gradient( to bottom , #413f7a, #1680b1);
     background: linear-gradient( to bottom , #413f7a, #1680b1);
-
-
 }
 * {
   font-family: 'Open Sans', sans-serif;
@@ -47,8 +43,6 @@ h1, h2, h3 {
 }
 
 body {
-  // background-color: #222;
-  // background-image: url("bg.jpg");
   margin-right: -10px;
   background: linear-gradient(to bottom, #413f7a , #1680b1);
   min-height: 100%;
@@ -56,14 +50,13 @@ body {
 }
 
 .bg {
-    width: 100%;
-    min-height: 300px;
+  width: 100%;
+  min-height: 300px;
 }
 
 .grey {
   color: #d1d1d1;
 }
-
 
 .center {
   text-align: center;
@@ -74,14 +67,12 @@ body {
   margin-right: 0;
 }
 
-
 .container {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
   padding: 0;
 }
-
 
 //TOP NAVIGATION
 .navbar a:link {
@@ -132,7 +123,6 @@ body {
   margin-left: 10px;
 }
 
-
 // LINKS
 a:active {
   color: #000;
@@ -152,15 +142,11 @@ a:link {
  font-size: 1em;
 }
 
-
-
 // CONTROL PANEL
 .control-panel {
-  // background-color: #fff;
   height: 85px;
   width: 100%;
   text-align: center;
-  // margin-top: 200px;
   position: fixed;
   bottom: 0;
 }
@@ -174,8 +160,6 @@ a:link {
   margin: 0 auto;
   padding: 8px;
 }
-
-
 
 
 // FORM TEXT
@@ -217,16 +201,13 @@ a:link {
 }
 
 .center-image-button {
-  // text-align: center;
   width: 250px;
   margin: 0 auto;
 }
 
 
-
 input[type=file] {
   transform: scale(1.2);
-  // margin-left: 100px;
   padding: 10px;
 
 }
@@ -241,15 +222,6 @@ input[type="image"]
 {
   background:url(btn-closet.png);
 }
-
-
-//HIDING IMAGE UPLOAD
-// #hide input[type=file] {
-// display:none;
-// margin:10px;
-// }
-
-
 
 
 //PICTURE
@@ -335,11 +307,6 @@ input[type="image"]
   background-color: #c659ab;
   padding: 5px;
 }
-//
-// .btn-teal {
-//   background-color: #409b8a;
-//
-// }
 
 .teal {
   font-size: 1.2em;
@@ -366,7 +333,6 @@ input[type="image"]
   color: #fff;
   background-color: #409b8a;
 }
-
 
 .blue {
   border-radius: 5px;
@@ -452,26 +418,4 @@ input[type="image"]
 }
 .shift-up {
   margin-top: 0px;
-}
-
-
-
-
-
-.chip {
-    display: inline-block;
-    padding: 0 25px;
-    height: 50px;
-    font-size: 16px;
-    line-height: 50px;
-    border-radius: 25px;
-    background-color: #f1f1f1;
-}
-
-.chip img {
-    float: left;
-    margin: 0 10px 0 -25px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
 }

@@ -8,12 +8,10 @@ class Picture < ApplicationRecord
   has_attached_file :image, styles: { medium: "350x350>" }, default_url: "missing.png"
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\z/
 
-
   before_save :tileize_picture
   def tileize_picture
     self.title = self.title.titleize
   end
-
 
   def get_task
     begin
@@ -47,7 +45,7 @@ class Picture < ApplicationRecord
     ).execute
     rescue RestClient::BadRequest => error
       errors.add(:base, message)
-      throw(:abort) #helping it not crash if it fails to save
+      throw(:abort) 
     end
     JSON.parse(response)
   end

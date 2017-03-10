@@ -20,5 +20,4 @@ class Event < ApplicationRecord
     end
     return photoArray
   end
-
 end

@@ -1,102 +1,76 @@
-
-
 <div class="col-sm-12 col-md-6">
-
   <%= render "form-details" %>
 
-<div class="well">
-  <div class="pull-right pink">
-    <%= link_to "Delete Picture", picture_path(@picture), :class => "btn-lg",:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
-  </div>
-  <div id="details">
-    <% if @picture.body != "" %>
-      <span class="type">Body:</span> <span class="detail"><%= @picture.body %></span><br>
-    <% end %>
-    <% if @picture.legs != ""  %>
-      <span class="type">Legs:</span> <span class="detail"> <%= @picture.legs %></span><br>
-    <% end %>
-    <% if @picture.feet != "" %>
-      <span class="type">Feet:</span> <span class="detail"> <%= @picture.feet %></span><br>
-    <% end %>
-    <% if @picture.hands != "" %>
-      <span class="type">Hands:</span> <span class="detail"> <%= @picture.hands %></span><br>
-    <% end %>
-    <% if @picture.head != "" %>
-      <span class="type">Head:</span> <span class="detail"> <%= @picture.head %></span><br>
-    <% end %>
+  <div class="well">
+    <div class="pull-right pink">
+      <%= link_to "Delete Picture", picture_path(@picture), :class => "btn-lg",:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
+    </div>
+    <div id="details">
+      <% if @picture.body != "" %>
+        <span class="type">Body:</span> <span class="detail"><%= @picture.body %></span><br>
+      <% end %>
+      <% if @picture.legs != ""  %>
+        <span class="type">Legs:</span> <span class="detail"> <%= @picture.legs %></span><br>
+      <% end %>
+      <% if @picture.feet != "" %>
+        <span class="type">Feet:</span> <span class="detail"> <%= @picture.feet %></span><br>
+      <% end %>
+      <% if @picture.hands != "" %>
+        <span class="type">Hands:</span> <span class="detail"> <%= @picture.hands %></span><br>
+      <% end %>
+      <% if @picture.head != "" %>
+        <span class="type">Head:</span> <span class="detail"> <%= @picture.head %></span><br>
+      <% end %>
+    </div><!-- detail end -->
+  </div><!-- well end -->
 
-  </div><!-- detail end -->
-</div><!-- well end -->
-
-
-<!-- EVENTS -->
-<div class="well">
-  <div class="pull-right teal">
-    <%= link_to "Add Event", new_picture_event_path(@picture), :class => "btn-lg" %>
-  </div>
-  <p>Click on Event to Search by Event</p>
+  <!-- EVENTS -->
+  <div class="well">
+    <div class="pull-right teal">
+      <%= link_to "Add Event", new_picture_event_path(@picture), :class => "btn-lg" %>
+    </div>
+    <p>Click on Event to Search by Event</p>
       <% if @picture.events.any? %>
         <% @picture.events.each do |event| %>
-
         <div class="btn event-text">
           <%= link_to event.name, picture_event_path(@picture, event.id), :class => "btn-lg" %>
-
           <div class="pink btn">
             <%= link_to "Delete", picture_event_path(@picture, event), :class => "btn", :id => "delete-test", :data => {:confirm => "Are you sure?",:method => "delete"}%>
-
             <div class="blue btn">
               <%= link_to "Rename", edit_picture_event_path(@picture, event.id), :class => "btn" %> <br>
-
             </div><!-- blue end -->
-         </div><br> <!-- pink end -->
-      </div><br><!-- Teal end -->
-
+          </div><br> <!-- pink end -->
+        </div><br><!-- Teal end -->
         <% end %>
         <% else %>
-        <p>
-          No events
-        </p>
+        <p>No events</p>
       <% end %>
-    </div>
-
-
+  </div>
 </div> <!-- col end -->
 
 <div class="col-sm-12">
-<div class="well">
-
-<h4>Analyze Photo</h4>
-
-<div class="btn btn-primary blue">
-  <%= link_to "Start Analyzing", :get_task => "Get_Task", :class => "btn-lg" %>
-</div>
-<% if @task_id != nil %>
-  Success #: <%= @task_id %>
-<% end %>
-<br>
-<div class="btn btn-primary blue">
-  <%= link_to "Get Results", :get_details => "AnalyzePhoto", :class => "btn-lg" %>
-</div>
-
-<% if @details%>
-<%# @details['task']['data']['boxes'].to_a[0][0]%>
-
-<h4>Image Analysis</h4>
-<% if @details['task']['data'] %>
-  <% @test = @details['task']['data']['boxes'].map %><br><br>
-  <%= @test.each do |k| %>
-                        <% if k.to_a[0] != "<br>" %>
-    <%= k.to_a[0] %><br>
-                        <% end %>
-  <% end %>
-  <% else %>
-  Fashion needs to be attached to analyze it
-<% end %>
-<% end %>
-
-<h4>
-<%# @details%><br>
-</h4>
-
-</div>
+  <div class="well">
+    <h4>Analyze Photo</h4>
+    <div class="btn btn-primary blue">
+      <%= link_to "Start Analyzing", :get_task => "Get_Task", :class => "btn-lg" %>
+    </div>
+      <% if @task_id != nil %>
+        Success #: <%= @task_id %>
+      <% end %><br>
+      <div class="btn btn-primary blue">
+        <%= link_to "Get Results", :get_details => "AnalyzePhoto", :class => "btn-lg" %>
+      </div>
+      <% if @details%>
+      <%# @details['task']['data']['boxes'].to_a[0][0]%>
+        <h4>Image Analysis</h4>
+        <% if @details['task']['data'] %>
+          <% @test = @details['task']['data']['boxes'].map %><br><br>
+          <%= @test.each do |k| %>
+            <%= k.to_a[0] %><br>
+          <% end %>
+          <% else %>
+          Fashion needs to be attached to analyze it
+        <% end %>
+      <% end %>
+  </div>
 </div>

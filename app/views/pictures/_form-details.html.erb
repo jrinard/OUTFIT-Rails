@@ -1,19 +1,18 @@
 <h1 class="center">Add Outfit Details</h1>
 <div class="well">
   <%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
-  <%= f.hidden_field :user_id, :value => current_user.id %>
+    <%= f.hidden_field :user_id, :value => current_user.id %>
+    <div class="field">
+      <%= f.text_field :title, :placeholder => 'Title', :class => 'form-control input-lg' %>
+    </div>
+    <div class="field">
+    <%= f.text_field :description, :placeholder => 'Description', :class => 'form-control input-lg' %>
+    </div>
+    <div id="hide" class="field form-text-small">
+      <%= f.file_field :image, class: 'btn-image center-image-button' %>
+    </div>
 
-  <div class="field">
-    <%= f.text_field :title, :placeholder => 'Title', :class => 'form-control input-lg' %>
-  </div>
-  <div class="field">
-  <%= f.text_field :description, :placeholder => 'Description', :class => 'form-control input-lg' %>
-  </div>
-  <div id="hide" class="field form-text-small">
-    <%= f.file_field :image, class: 'btn-image center-image-button' %>
-  </div>
-
-  <hr>
+    <hr>
 
     <div class="field">
       <%= f.text_field :body, :placeholder => 'Shirt', :class => 'form-control input-lg' %>

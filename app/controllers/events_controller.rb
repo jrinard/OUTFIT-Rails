@@ -1,12 +1,8 @@
 class EventsController < ApplicationController
 
     def index
-
       @events = current_user.events.all
-
       # @events = Event.select('distinct on (name) *').order('name desc')
-      # @events = @events.select('distinct on (name) *').order('name desc').where() # find all unqiue events
-
       @showlogin = false
       if params[:logout]
         @showlogin = true
@@ -17,13 +13,11 @@ class EventsController < ApplicationController
       @photo = Picture.find(params[:picture_id])
       tag = Event.find(params[:id])
       @photoArray = tag.findTaggedPhotos2
-
       if params[:fav]
         @picture = Picture.find(params[:fav])
         @picture.liked_by current_user
         @picture.update(:extra => "fav")
       end
-
     end
 
     def new

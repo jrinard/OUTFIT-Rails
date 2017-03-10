@@ -1,7 +1,6 @@
 <div class="col-sm-12">
   <div class="center">
     <h1>Search Results</h1>
-
     <% if @photoSearchResults %>
       <% @photoSearchResults.each do |picture| %>
         <div class="col-xs-6">
@@ -23,7 +22,7 @@
     <% else %>
       <p>There are no search results.</p>
     <% end %>
-
+    
     <% if @searchbydate %>
       <% @searchbydate.each do |picture| %>
         <div class="col-xs-6">

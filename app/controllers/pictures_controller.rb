@@ -46,20 +46,6 @@ def create
    end
 end
 
-# def create
-#    @user = current_user
-#    @picture = Picture.new(picture_params)
-#    respond_to do |format|
-#    if @picture.save
-#      format.html flash[:notice] = "Picture Saved!"
-#      format.js { redirect_to(fallback_location: pictures_path, notice: 'worked') }
-#    else
-#      format.html {render :new, notice: 'There was an error.'}
-#      format.js { redirect_back(fallback_location: pictures_path, notice: 'There was an error.') }
-#     end
-#   end
-# end
-
 def edit
    @picture = Picture.new
    @picture = Picture.find(params[:id])
@@ -68,20 +54,20 @@ end
 
 def update
   @picture = Picture.find(params[:id])
-    if @picture.update(picture_params)
-      flash[:notice] = "Picture updated!"
-      redirect_to pictures_path
-    else
-      render :edit
-    end
-  end
-
-  def destroy
-    @picture = Picture.find(params[:id])
-    if @picture.events.destroy_all
-      @picture.destroy
-    flash[:notice] = "Picture deleted!"
+  if @picture.update(picture_params)
+    flash[:notice] = "Picture updated!"
     redirect_to pictures_path
+  else
+    render :edit
+  end
+end
+
+def destroy
+  @picture = Picture.find(params[:id])
+  if @picture.events.destroy_all
+    @picture.destroy
+  flash[:notice] = "Picture deleted!"
+  redirect_to pictures_path
   else
     render :edit
   end

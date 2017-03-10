@@ -1,7 +1,5 @@
-
 <div class="col-sm-12">
   <h3 class="center">New Outfit</h3>
-
     <div class="well">
       <%= form_for [@picture], authenticity_token: true, remote: true do |f| %>
       <div class="field">
@@ -12,7 +10,6 @@
       </div>
       <div class="field">
         <%= f.hidden_field :user_id, :value => current_user.id %>
-        <%# f.hidden_field :favorite, :value => "asf" %>
       </div>
       <div class="field form-text-small">
         <%= f.file_field :image, class: 'center-image-button' %>
