@@ -2,14 +2,10 @@ class EventsController < ApplicationController
 
     def index
 
-      # @events = Event.find(:all, :conditions => { :user_id => current_user.id } )
-      #
-      @events = Event.all
+      @events = current_user.events.all
 
-      # @events = Event.select('distinct on (name) *').order('name desc').where() # find all unqiue events
-      #
+      # @events = Event.select('distinct on (name) *').order('name desc')
       # @events = @events.select('distinct on (name) *').order('name desc').where() # find all unqiue events
-
 
       @showlogin = false
       if params[:logout]
@@ -73,6 +69,6 @@ class EventsController < ApplicationController
 
   private
     def event_params
-      params.require(:event).permit(:name, :user_id)
+      params.require(:event).permit(:name)
     end
   end
