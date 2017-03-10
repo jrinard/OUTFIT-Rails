@@ -144,11 +144,16 @@ a:link {
 
 // CONTROL PANEL
 .control-panel {
+  background-color: #fff;
+  padding-top: 4px;
   height: 85px;
   width: 100%;
   text-align: center;
   position: fixed;
   bottom: 0;
+
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don'tsupport rgba */
+  background: rgba(255, 255, 255, .8);
 }
 .btn {
   margin: 0 auto;

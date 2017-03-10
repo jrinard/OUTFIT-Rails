@@ -2,7 +2,7 @@ class EventsController < ApplicationController
 
     def index
       @events = current_user.events.all
-      # @events = Event.select('distinct on (name) *').order('name desc')
+      @events = Event.select('distinct on (name) *').order('name desc')
       @showlogin = false
       if params[:logout]
         @showlogin = true
