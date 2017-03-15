@@ -9,8 +9,8 @@
               <span class="month"><%= picture.created_at.strftime("%b") %></span>
               <span class="day"><%= picture.created_at.strftime("%d") %></span>
               <div class="title"><%= picture.title %></div>
-              <%= link_to image_tag("btn-fav.png"), {:fav => picture.id} %>
-              <%= link_to image_tag("btn-edit.png", :class => "btn"), picture_path(picture) %>
+              <%= link_to image_tag("btn-fav.png", :class => 'fav-button'), {:fav => picture.id} %>
+              <%= link_to image_tag("btn-edit.png", :class => "btn edit-button"), picture_path(picture) %>
             </div>
             <div id="block-bottom">
               <span class="time"><%# time_ago_in_words(picture.created_at) %></span>

@@ -17,7 +17,7 @@
         <div id="block2">
           <%= link_to image_tag("btn-fav.png", :class => 'fav-button'), {:fav => picture.id} %><br><br>
           <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
-          <%= link_to image_tag("btn-edit.png", :alt => "edit", :class => "btn marginL"), picture_path(picture) %>
+          <%= link_to image_tag("btn-edit.png", :alt => "edit", :class => "marginL edit-button"), picture_path(picture) %>
         </div>
 
         <div id="block-bottom">

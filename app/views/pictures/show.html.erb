@@ -6,6 +6,7 @@
       <%= link_to "Delete Picture", picture_path(@picture), :class => "btn-lg",:data => {:confirm => "Are you sure?",:method => "delete"}, remote: true  %>
     </div>
     <div id="details">
+        <h4>Details</h4>
       <% if @picture.body != "" %>
         <span class="type">Body:</span> <span class="detail"><%= @picture.body %></span><br>
       <% end %>
@@ -26,6 +27,7 @@
 
   <!-- EVENTS -->
   <div class="well">
+    <h4>Events</h4>
     <div class="pull-right teal">
       <%= link_to "Add Event", new_picture_event_path(@picture), :class => "btn-lg" %>
     </div>
