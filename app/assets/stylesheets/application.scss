@@ -249,9 +249,10 @@ input[type="image"]
 #block2 {
   width: 50%;
   margin-top: -80px;
-  margin-left: 50%;
+  margin-left: 60%;
   padding-top: 10px;
   padding-left: 40px;
+
 }
 
 #block2-mini {
@@ -423,4 +424,33 @@ input[type="image"]
 }
 .shift-up {
   margin-top: 0px;
+}
+
+.home-button {
+  background-color: #552c75;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+
+.event-button {
+  background-color: #3fbeaa;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+
+.search-button {
+  background-color: #302e63;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
+}
+
+
+.fav-button {
+  background-color: #bd3e9e;
+  height: 52px;
+  width: 52px;
+  border-radius: 50%;
 }

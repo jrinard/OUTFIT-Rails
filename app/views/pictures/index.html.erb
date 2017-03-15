@@ -15,13 +15,13 @@
         </div>
 
         <div id="block2">
-          <%= link_to image_tag("btn-fav.png"), {:fav => picture.id} %>
+          <%= link_to image_tag("btn-fav.png", :class => 'fav-button'), {:fav => picture.id} %><br><br>
           <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
           <%= link_to image_tag("btn-edit.png", :alt => "edit", :class => "btn marginL"), picture_path(picture) %>
         </div>
 
         <div id="block-bottom">
-          <%= link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
+          <%# link_to "Show Details", :class => "center  btn", :showdetail => "showdetail" %>
           <!-- <span class="time"><%# time_ago_in_words(picture.created_at) %></span> -->
         </div>
 
