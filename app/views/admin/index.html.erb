@@ -1,0 +1,21 @@
+<div class="col-xs-12">
+<div class="center">
+
+<% if current_user.admin %>
+  <h3>Admin Panel</h3>
+
+  <% if @users.any? %>
+    <% @users.each do |user| %>
+    <div class="well flexbox">
+      Name: <%= user.username %><br>
+      Email:  <%= user.email %><br>
+      Joined: <%= user.created_at %><br>
+      Admin:  <%= user.admin %>
+    </div><br>
+    <% end %>
+  <% end %>
+  <% else %>
+    <h3>You do not have access. Please sign in.</h3>
+  <% end %>
+</div>
+</div>
