@@ -4,13 +4,23 @@
 <% if current_user.admin %>
   <h3>Admin Panel</h3>
 
+<div class="admin-block well">
+  Total Users: <%= @totalusercount %>
+</div>
+
   <% if @users.any? %>
     <% @users.each do |user| %>
     <div class="well flexbox">
+
+  <% if user.admin %>
+      <h4>Admin</h4>
+  <% end %>
       Name: <%= user.username %><br>
       Email:  <%= user.email %><br>
       Joined: <%= user.created_at %><br>
-      Admin:  <%= user.admin %>
+      Total Pictures: <%= user.pictures.count %><br>
+      Total Events: <%= user.events.count %><br>
+
     </div><br>
     <% end %>
   <% end %>
