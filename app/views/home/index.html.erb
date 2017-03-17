@@ -9,7 +9,7 @@
     </div>
     <div class="well">
       <%= form_tag(show_path, method: 'post', class:'') do %>
-      <%= date_field :date, "", class: "form-control", placeholder: "Search by Date" %><br>
+      <%= date_field :date, "", class: "form-control", placeholder: "Search by Date as yyyy-dd-mm" %><br>
         <button type="submit" class="btn-lg btn-primary">Search</button>
       <% end %>
     </div>
