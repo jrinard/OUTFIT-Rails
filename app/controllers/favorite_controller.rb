@@ -4,7 +4,7 @@ class FavoriteController < ApplicationController
 
  def index
    @user = current_user
-   @pictures = Picture.all.where(extra: "fav")
+   @pictures = @user.pictures.where(extra: "fav")
 
    @showdetail = false
    if params[:showdetail]
