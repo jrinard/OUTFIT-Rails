@@ -5,4 +5,5 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
          has_many :pictures
          has_many :events, through: :pictures
+        # has_many :events, through: :pictures, dependent: :destroy
 end

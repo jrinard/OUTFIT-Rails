@@ -45,7 +45,7 @@ class Picture < ApplicationRecord
     ).execute
     rescue RestClient::BadRequest => error
       errors.add(:base, message)
-      throw(:abort) 
+      throw(:abort)
     end
     JSON.parse(response)
   end

@@ -4,22 +4,26 @@
 <% if current_user.admin %>
   <h3>Admin Panel</h3>
 
-<div class="admin-block well">
-  Total Users: <%= @totalusercount %>
+<div class="admin-block ">
+  Total Users: <span class = "solid" ><%= @totalusercount %></span>
 </div>
 
   <% if @users.any? %>
     <% @users.each do |user| %>
-    <div class="well flexbox">
+    <div class="admin-block flexbox">
 
   <% if user.admin %>
       <h4>Admin</h4>
   <% end %>
-      Name: <%= user.username %><br>
-      Email:  <%= user.email %><br>
-      Joined: <%= user.created_at %><br>
-      Total Pictures: <%= user.pictures.count %><br>
-      Total Events: <%= user.events.count %><br>
+      Name: <span class = "solid" ><%= user.username %></span>  |
+      Email:  <span class = "solid" ><%= user.email %></span>  |
+      Joined: <span class = "solid" ><%= user.created_at.strftime("%b %d, %Y") %></span>  |
+      Total Pictures: <span class = "solid" ><%= user.pictures.count %></span> |
+      Total Events: <span class = "solid" ><%= user.events.count %></span> <br>
+
+      <%= link_to "Delete User", admin_destroy_user_path(user), method: :delete, data: { confirm: "You sure?" } %>
+
+      <%# link_to "Delete", pictures_path(user.id),:data => {:confirm => "Are you sure?",:method => "delete"} %>
 
     </div><br>
     <% end %>

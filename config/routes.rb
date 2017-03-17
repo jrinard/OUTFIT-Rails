@@ -14,4 +14,6 @@ Rails.application.routes.draw do
 
   resources :admin, :only => [:index]
 
+match 'users/:id' => 'users#destroy', :via => :delete, :as => :admin_destroy_user
+
 end
