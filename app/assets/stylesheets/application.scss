@@ -468,6 +468,36 @@ input[type="image"]
   border-radius: 50%;
 }
 
+//tutorial buttons
+.photo-button-tut {
+  background-color: #000;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+.home-button-tut {
+  background-color: #552c75;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+
+.edit-button-tut {
+  background-color: #000;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+.event-button-tut {
+  background-color: #3fbeaa;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
+
+h4 {
+  line-height: normal;
+}
 
 //admin
 
@@ -488,4 +518,14 @@ input[type="image"]
 .size {
   font-size: 1em;
   color: #fff;
+}
+
+.tutorial {
+  text-align: center;
+  color: #d1d1d1;
+  width: 85%;
+  padding: 10px;
+  margin-left: 20px;
+  font-size: 1.2em;
+
 }
