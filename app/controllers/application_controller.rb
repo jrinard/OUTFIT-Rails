@@ -3,6 +3,10 @@ class ApplicationController < ActionController::Base
   before_action :configure_permitted_parameters, if: :devise_controller?
   before_action :authenticate_user!
 
+  def after_sign_in_path_for(resource)
+    pictures_path
+  end
+
   protected
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up) do |user_params|
@@ -15,6 +19,7 @@ class ApplicationController < ActionController::Base
       user_params.permit(:username, :email, :current_password, :password, :password_confirmation)
     end
   end
+
 
   def index
   end
