@@ -1,7 +1,8 @@
   <div class="col-xs-12">
-    <h3 class="center">Events</h3>
-      <% if @events %>
+
+      <% if @events.any? %>
         <% @events.each do |event| %>
+            <h3 class="center">Events</h3>
           <div class="well">
             <div class="col-xs-6">
               <div class="btn event-text-larger">
@@ -21,10 +22,18 @@
           </div><!-- well end1 -->
         <% end %>
         <% else %>
-          <div class="well">
             <div class="center grey"><br><br>
-              There are no events yet!
+              <div class="tutorial"><br><br>
+                <span class=""><h3>There are no events yet!</h3></span>
+                <h2>How this works!</h2> <br>
+
+
+                <h4>1. While viewing the outfit on the home page. <%= link_to image_tag("btn-home-tut.png", :class => "home-button-tut"), pictures_path %></h4>
+                <h4>2. Press the pin needle   <%= image_tag("btn-edit-tut.png", :alt => "edit", :class => "edit-button-tut") %></h4>
+                <h4>3. Scroll down and press "Add Event". Give it a name and save it!</h4>
+                <h4>4. Once your event is saved you can click on the event name to search for all outfits with the same event!</h4>
+              </div>
             </div>
-          </div>
+
         <% end %>
      </div><!-- col end -->
