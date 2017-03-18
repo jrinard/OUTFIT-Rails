@@ -9,14 +9,20 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <nav class = "nav navbar-custom">
+
+    <div class="pull-left user-nav-text">
+      <% if current_user %>
+        <%= current_user.username %>
+      <% end %>
+    </div>
+
+    <nav class = "navbar-custom">
       <%= link_to image_tag("logo.png", :class => "logo shift-right"), root_path %>
       <% if current_user %>
       <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% else %>
       <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
       <% end %>
-    </div> <!-- col end -->
 
     <!-- LOGIN -->
     <div class="col-sm-12">
@@ -31,31 +37,25 @@
         <%= link_to "Signup", new_user_registration_path %></a> |
         <%= link_to "Settings", edit_user_registration_path %>
         <% end %>
-
-
       </div> <!-- login end -->
       <% end %>
     </nav>
 
-    <div class="container">
+    <!-- <div class="container"> -->
       <div class="center grey">
         <%= flash[:notice] %>
       </div>
       <div class="row">
         <%= yield %>
-        <div class="col-sm-12">
+      </div> <!-- row end -->
           <div class="control-panel">
             <div class="notice"></div>
-            <div class="img-responsive">
               <%= link_to image_tag("btn-home.png", :class => "home-button"), pictures_path %>
               <%= link_to image_tag("btn-event.png", :class => "event-button"), events_path %>
               <%= link_to image_tag("btn-photo.png", :id => "photo-button", :class => "btn photo-button"), new_picture_path %>
               <%= link_to image_tag("btn-search.png", :class => "search-button"), root_path %>
               <%= link_to image_tag("btn-fav.png", :class => "fav-button"), favorite_index_path %>
-            </div>
           </div><!-- control panel end -->
-        </div> <!-- col end -->
-      </div> <!-- row end -->
-    </div><!-- container end -->
+    <!-- </div> --><!-- container end -->
   </body>
 </html>
