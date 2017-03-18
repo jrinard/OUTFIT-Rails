@@ -30,7 +30,7 @@ class EventsController < ApplicationController
       @event = @picture.events.new(event_params)
       if @event.save
         flash[:notice] = "Event added!"
-        redirect_to pictures_path
+        redirect_to picture_path(@picture)
       else
         flash[:notice] = "Event not added!"
         render :new
@@ -47,7 +47,7 @@ class EventsController < ApplicationController
       @event = Event.find(params[:id])
       if @event.update(event_params)
         flash[:notice] = "Event updated!"
-        redirect_to picture_path(@picture.id)
+        redirect_to events_path
       else
         render :edit
       end

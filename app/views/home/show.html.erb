@@ -2,13 +2,33 @@
   <div class="flex-container">
     <div class="flex-block">
 
+      <h3>Search Results</h3>
+      <% if @photoSearchResults %>
+        <% @photoSearchResults.each do |picture| %>
+          <div class="col-xs-6">
+            <div class="well well-small">
+              <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
+              <div id="block1-mini">
+                <span class="month"><%= picture.created_at.strftime("%b") %></span>
+                <span class="day"><%= picture.created_at.strftime("%d") %></span>
+                <div class="title"><%= picture.title %></div>
+                <%= link_to image_tag("btn-fav.png", :class => "fav-button"), {:fav => picture.id} %>
+                <%= link_to image_tag("btn-edit.png", :class => "marginL edit-button"), picture_path(picture) %>
+              </div>
+              <div id="block-bottom">
+                <span class="time"><%= time_ago_in_words(picture.created_at) %></span>
+              </div>
+            </div><!-- well end -->
+          </div><!-- col end -->
+        <% end %>
+      <% else %>
+      <% end %>
 
-    <h3>Search Results</h3>
-    <% if @photoSearchResults %>
-      <% @photoSearchResults.each do |picture| %>
-        <div class="col-xs-6">
-          <div class="well well-small">
-            <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
+      <% if @searchbydate %>
+        <% @searchbydate.each do |picture| %>
+          <div class="col-xs-6">
+            <div class="well well-small">
+              <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
             <div id="block1-mini">
               <span class="month"><%= picture.created_at.strftime("%b") %></span>
               <span class="day"><%= picture.created_at.strftime("%d") %></span>
@@ -24,27 +44,6 @@
       <% end %>
     <% else %>
     <% end %>
-
-    <% if @searchbydate %>
-      <% @searchbydate.each do |picture| %>
-        <div class="col-xs-6">
-          <div class="well well-small">
-            <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
-          <div id="block1-mini">
-            <span class="month"><%= picture.created_at.strftime("%b") %></span>
-            <span class="day"><%= picture.created_at.strftime("%d") %></span>
-            <div class="title"><%= picture.title %></div>
-            <%= link_to image_tag("btn-fav.png", :class => "fav-button"), {:fav => picture.id} %>
-            <%= link_to image_tag("btn-edit.png", :class => "marginL edit-button"), picture_path(picture) %>
-          </div>
-          <div id="block-bottom">
-            <span class="time"><%= time_ago_in_words(picture.created_at) %></span>
-          </div>
-        </div><!-- well end -->
-      </div><!-- col end -->
-    <% end %>
-  <% else %>
-  <% end %>
 
     </div><!-- flex-block end -->
   </div><!-- flex-container end -->

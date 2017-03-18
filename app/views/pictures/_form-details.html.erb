@@ -1,4 +1,4 @@
-<h1 class="center">Add Outfit Details</h1>
+<h3>Add Outfit Details</h3>
 <div class="well">
   <%= form_for [@user, @picture], authenticity_token: true, remote: true do |f| %>
     <%= f.hidden_field :user_id, :value => current_user.id %>
@@ -6,13 +6,15 @@
       <%= f.text_field :title, :placeholder => 'Title', :class => 'form-control input-lg' %>
     </div>
     <div class="field">
-    <%= f.text_field :description, :placeholder => 'Description', :class => 'form-control input-lg' %>
+      <%= f.text_field :description, :placeholder => 'Description', :class => 'form-control input-lg' %>
     </div>
+    <p>Update selfie of your outfit</p>
     <div id="hide" class="field form-text-small">
-      <%= f.file_field :image, class: 'btn-image center-image-button' %>
+      <%= f.file_field :image, class: 'btn btn-image center-image-button' %>
     </div>
 
     <hr>
+    <p>Here you can add more details about this outfit</p>
 
     <div class="field">
       <%= f.text_field :body, :placeholder => 'Shirt', :class => 'form-control input-lg' %>

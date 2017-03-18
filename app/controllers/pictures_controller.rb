@@ -66,7 +66,7 @@ def destroy
   @picture = Picture.find(params[:id])
   if @picture.events.destroy_all
     @picture.destroy
-  flash[:notice] = "Picture deleted!"
+  flash[:notice] = "Outfit has been deleted!"
   redirect_to pictures_path
   else
     render :edit

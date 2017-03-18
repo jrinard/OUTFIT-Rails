@@ -25,12 +25,25 @@ li {
   list-style-type: none;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
   color: #fff;
   text-align: center;
 }
 h4 {
   color: #fff;
+  text-align: center;
+}
+h4 {
+  line-height: normal;
+}
+
+p {
+  text-align: center;
+}
+
+.h4-dark {
+  color: #000;
+  font-size: 1.8em;
   text-align: center;
 }
 
@@ -165,6 +178,8 @@ a:link {
 .btn {
   margin: 0 auto;
   padding: 0px 2px;
+  -webkit-box-shadow: none !important;
+   box-shadow: none  !important;
 
 }
 
@@ -380,7 +395,7 @@ input[type="image"]
 
 // Event text on pictures events
 .event-text {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 5px;
   padding: 5px;
 }
@@ -403,7 +418,6 @@ input[type="image"]
   color: #fff;
   background-color: #409b8a;
 }
-
 
 
 // event text on events
@@ -508,9 +522,6 @@ input[type="image"]
   border-radius: 50%;
 }
 
-h4 {
-  line-height: normal;
-}
 
 //admin
 .admin-container {
@@ -557,9 +568,32 @@ h4 {
   display: flex;
   height: 300px;
   flex-direction: column;
+  flex-wrap:  wrap;
 }
 
 .flex-block {
+  // background-color: #000;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 525px;
+}
+
+.flex-block-pictures {
+  // background-color: #000;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 725px;
+}
+
+.flex-container-events {
+  display: flex;
+  align-content: stretch;
+  justify-content: space-around;
+}
+
+.flex-block-events {
   // background-color: #000;
   width: 95%;
   padding: 10px;

@@ -1,26 +1,24 @@
-<div class="col-sm-12">
-  <div class="center">
-    <h2>Forgot your password?</h2>
-  </div>
-  <div class="form well">
+<div class="col-xs-12">
+  <div class="flex-container">
+    <div class="flex-block">
 
-  <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-    <%= devise_error_messages! %>
+        <h3>Forgot your password?</h3>
 
-    <div class="field">
-      <%= f.label :email %><br />
-      <%= f.email_field :email, autofocus: true %>
-    </div>
+          <div class="well">
+            <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
+              <%= devise_error_messages! %>
+              <div class="field">
+                <%= f.label :email %><br />
+                <%= f.email_field :email, :class => "form-control", autofocus: true %>
+              </div>
+              <div class="actions center">
+                <%= f.submit "Reset" , :class => "btn-lg btn-primary" %>
+              </div>
+            <% end %>
+            <hr><br>
+            <%= render "devise/shared/links" %>
+          </div>
 
-    <div class="actions">
-      <%= f.submit "Reset Password" , :class => "btn btn-primary" %>
-    </div>
-  <% end %>
-
-<hr>
-
-  <%= render "devise/shared/links" %>
-
-
-  </div>
-</div>
+    </div><!-- flex-block end -->
+  </div><!-- flex-container end -->
+</div><!-- col end -->
