@@ -1,4 +1,6 @@
-  <div class="col-xs-12">
+<div class="col-xs-12">
+  <div class="flex-container">
+    <div class="flex-block">
 
       <% if @events.any? %>
         <% @events.each do |event| %>
@@ -32,6 +34,8 @@
                 <h4>4. Once your event is saved you can click on the event name to search for all outfits with the same event!</h4>
               </div>
             </div>
-
         <% end %>
-     </div><!-- col end -->
+
+    </div><!-- flex-block end -->
+  </div><!-- flex-container end -->
+</div><!-- col end -->

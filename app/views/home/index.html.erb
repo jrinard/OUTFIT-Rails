@@ -1,17 +1,21 @@
-<div class="col-sm-12">
-  <div class="center">
-    <h3>Search</h3>
-     <div class="well">
-        <%= form_tag(show_path, method: 'post', class:'') do %>
-          <%= text_field_tag :title, "", class: "form-control", placeholder: "Search by Outfit Name" %><br>
-          <button type="submit" class="btn-lg btn-primary">Search</button>
-        <% end %>
-    </div>
-    <div class="well">
-      <%= form_tag(show_path, method: 'post', class:'') do %>
-      <%= date_field :date, "", class: "form-control", placeholder: "Search by Date as yyyy-dd-mm" %><br>
-        <button type="submit" class="btn-lg btn-primary">Search</button>
-      <% end %>
-    </div>
-  </div>
-</div>
+<div class="col-xs-12">
+  <div class="flex-container">
+    <div class="flex-block">
+
+      <h3>Search</h3>
+        <div class="well">
+          <%= form_tag(show_path, method: 'post', class:'') do %>
+            <%= text_field_tag :title, "", class: "form-control", placeholder: "Search by Outfit Name" %><br>
+            <button type="submit" class="btn-lg btn-primary">Search</button>
+          <% end %>
+        </div>
+        <div class="well">
+          <%= form_tag(show_path, method: 'post', class:'') do %>
+          <%= date_field :date, "", class: "form-control", placeholder: "Search by Date as yyyy-dd-mm" %><br>
+            <button type="submit" class="btn-lg btn-primary">Search</button>
+          <% end %>
+        </div>
+
+    </div><!-- flex-block end -->
+  </div><!-- flex-container end -->
+</div><!-- col end -->

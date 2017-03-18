@@ -27,7 +27,14 @@ li {
 
 h1, h2, h3 {
   color: #fff;
+  text-align: center;
 }
+h4 {
+  color: #fff;
+  text-align: center;
+}
+
+
 
 .well {
   margin-left: 15px;
@@ -494,19 +501,32 @@ input[type="image"]
   width: 23px;
   border-radius: 50%;
 }
+.fav-button-tut {
+  background-color: #bd3e9e;
+  height: 23px;
+  width: 23px;
+  border-radius: 50%;
+}
 
 h4 {
   line-height: normal;
 }
 
 //admin
+.admin-container {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+
+}
 
 .admin-block {
   background-color: #f2f2f2;
   width: 90%;
   border: solid thin #222;
   padding: 10px;
-  margin: 0px 20px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 .solid {
@@ -527,5 +547,22 @@ h4 {
   padding: 10px;
   margin-left: 20px;
   font-size: 1.2em;
+}
 
+
+
+// New Flexbox
+
+.flex-container {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+}
+
+.flex-block {
+  // background-color: #000;
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 525px;
 }

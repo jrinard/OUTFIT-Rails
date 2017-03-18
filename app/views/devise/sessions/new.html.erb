@@ -1,35 +1,36 @@
-<div class="col-sm-12">
+<div class="col-xs-12">
+  <div class="flex-container">
+    <div class="tutorial"></div>
+    <div class="flex-block">
 
-<div class="">
-  <div class="tutorial">
-    <h3>Welcome!</h3>
-    <h4>In order to continue please Login or Create Account!</h4>
-  </div>
-</div>
-
-  <h2 class="center">Log in</h2>
-  <div class="form well">
-    <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-      <div class="field">
-        <%= f.label :email %><br />
-        <%= f.email_field :email, autofocus: true, :class => "form-control input-lg", :placeholder => "Email"%>
-      </div>
-      <div class="field">
-        <%= f.label :password %><br />
-        <%= f.password_field :password, autocomplete: "off", :class => "form-control input-lg" %>
-      </div>
-      <% if devise_mapping.rememberable? -%>
-        <div class="field form-text-small">
-          <%= f.check_box :remember_me, :class => "big-checkbox" %>
-          <%= f.label :remember_me %>
+      <h3>Welcome!</h3>
+      <h4>In order to continue please Login or Create Account!</h4>
+      <h2>Log in</h2>
+      <div class="form well">
+        <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
+          <div class="field">
+            <%= f.label :email %><br />
+            <%= f.email_field :email, autofocus: true, :class => "form-control input-lg", :placeholder => "Email"%>
+          </div>
+          <div class="field">
+            <%= f.label :password %><br />
+            <%= f.password_field :password, autocomplete: "off", :class => "form-control input-lg", :placeholder => "Password" %>
+          </div>
+          <% if devise_mapping.rememberable? -%>
+            <div class="field form-text-small">
+              <%= f.check_box :remember_me, :class => "big-checkbox" %>
+              <%= f.label :remember_me %>
+            </div>
+          <% end -%>
+          <div class="actions center">
+            <%= f.submit "Log in", :class => "btn-lg btn-primary" %>
+          </div>
+        <% end %>
+        <div class="form-text-small center">
+          <%= render "devise/shared/links" %>
         </div>
-      <% end -%>
-      <div class="actions center">
-        <%= f.submit "Log in", :class => "btn-lg btn-primary" %>
       </div>
-    <% end %>
-    <div class="form-text-small center">
-      <%= render "devise/shared/links" %>
-    </div>
-  </div>
-</div>
+
+    </div><!-- flex-block end -->
+  </div><!-- flex-container end -->
+</div><!-- col end -->

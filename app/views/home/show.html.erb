@@ -1,5 +1,8 @@
-<div class="col-sm-12">
-  <div class="center">
+<div class="col-xs-12">
+  <div class="flex-container">
+    <div class="flex-block">
+
+
     <h3>Search Results</h3>
     <% if @photoSearchResults %>
       <% @photoSearchResults.each do |picture| %>
@@ -40,7 +43,9 @@
         </div><!-- well end -->
       </div><!-- col end -->
     <% end %>
-    <% else %>
-    <% end %>
-  </div>
-</div>
+  <% else %>
+  <% end %>
+
+    </div><!-- flex-block end -->
+  </div><!-- flex-container end -->
+</div><!-- col end -->
