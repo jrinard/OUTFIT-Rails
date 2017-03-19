@@ -116,11 +116,15 @@ body {
   text-decoration: none;
 }
 
-.navbar-custom {
-  background-color: #fff;
+.menu {
+  background-color: #d2d2d2;
   text-align: center;
   width: 100%;
-  padding-right: 20px;
+  font-size: 1.2em;
+  border-top: 1px solid #555;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don'tsupport rgba */
+  background: rgba(255, 255, 255, .8);
+
 }
 
 .logo {

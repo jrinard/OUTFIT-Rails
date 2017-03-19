@@ -15,7 +15,7 @@
       <div class="col-xs-4">
         <div class = "user-nav-text">
           <% if current_user %>
-            <%= current_user.username %>
+            <%= link_to current_user.username, edit_user_registration_path %>
           <% end %>
         </div>
       </div>
@@ -32,22 +32,21 @@
         <% end %>
       </div>
     </div>
-</div>
+  </div>
     <!-- LOGIN -->
       <% if @showlogin === true %>
-      <div class="nav login-text shiftR navbar-custom">
+      <div class="menu">
         <% if current_user %>
-        <span class="white"><%= current_user.username %></span> |
-        <%= link_to "Logout", destroy_user_session_path, method: "delete" %> |
-        <%= link_to "Settings", edit_user_registration_path %>
+        <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
         <% else %>
-        <%= link_to "Log-in", new_user_session_path %></a> |
-        <%= link_to "Signup", new_user_registration_path %></a> |
-        <%= link_to "Settings", edit_user_registration_path %>
+        <%= link_to "Log-in", new_user_session_path %></a>
+        <%= link_to "Signup", new_user_registration_path %></a>
         <% end %>
       </div> <!-- login end -->
       <% end %>
-    <!-- </nav> -->
+
+
+
 
         <div class="center-notice grey">
           <%= flash[:notice] %>
