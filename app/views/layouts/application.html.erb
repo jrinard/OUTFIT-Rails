@@ -25,7 +25,6 @@
       <% end %>
 
     <!-- LOGIN -->
-    <div class="col-sm-12">
       <% if @showlogin === true %>
       <div class="nav login-text shiftR navbar-custom">
         <% if current_user %>
@@ -40,14 +39,12 @@
       </div> <!-- login end -->
       <% end %>
     </nav>
-
-    <!-- <div class="container"> -->
-      <div class="center grey">
-        <%= flash[:notice] %>
-      </div>
-      <div class="row">
+    
+        <div class="center-notice grey">
+          <%= flash[:notice] %>
+        </div>
         <%= yield %>
-      </div> <!-- row end -->
+
           <div class="control-panel">
             <div class="notice"></div>
               <%= link_to image_tag("btn-home.png", :class => "home-button"), pictures_path %>
@@ -55,7 +52,7 @@
               <%= link_to image_tag("btn-photo.png", :id => "photo-button", :class => "btn photo-button"), new_picture_path %>
               <%= link_to image_tag("btn-search.png", :class => "search-button"), root_path %>
               <%= link_to image_tag("btn-fav.png", :class => "fav-button"), favorite_index_path %>
-          </div><!-- control panel end -->
-    <!-- </div> --><!-- container end -->
+        </div><!-- control panel end -->
+
   </body>
 </html>
