@@ -139,8 +139,7 @@ body {
 
 .logo {
   font-size: 50px;
-  margin:auto;
-  margin-right: 0px;
+
   // margin-left: 0px;
   padding-bottom: 5px;
   max-height: 55px;
@@ -152,7 +151,8 @@ body {
 
 .user-nav-text {
     // margin-left: 30px;
-    padding: 20px;
+    // padding: 20px;
+    padding-top: 15px;
     float: left;
 }
 
@@ -622,4 +622,23 @@ input[type="image"]
   padding: 10px;
   margin: 0 auto;
   max-width: 525px;
+}
+
+.flex-container-big {
+    background-color: #000;
+  display: flex;
+  height: 70px;
+  // flex-direction: row;
+
+  justify-content: center;
+
+
+}
+
+.flex-block-big {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+
 }
