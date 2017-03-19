@@ -6,21 +6,22 @@
 
     <% if @pictures.any? %>
       <% @pictures.each do |picture| %>
-        <div class="col-xs-12 col-sm-12 col-md-6">
+        <div class="col-xs-12 col-sm-6 col-md-6">
 
           <div class="well">
             <%= image_tag picture.image, :class => "image-size img-responsive round" %>
+
+            <div id="mini-menu">
+              <%= link_to image_tag("btn-fav.png", :class => 'fav-button'), {:fav => picture.id} %>
+              <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
+              <%= link_to image_tag("btn-edit.png", :alt => "edit", :class => "marginL edit-button"), picture_path(picture) %>
+            </div>
+
           <div id="block1">
             <span class="month"><%= picture.created_at.strftime("%b") %></span>
             <span class="day"><%= picture.created_at.strftime("%d") %></span>
             <div class="title"><%= picture.title %></div>
             <div class="description"><%= picture.description %></div>
-          </div>
-
-          <div id="block2">
-            <%= link_to image_tag("btn-fav.png", :class => 'fav-button'), {:fav => picture.id} %><br><br>
-            <!-- <span class="vote-number"><%= picture.get_likes.size %></span> -->
-            <%= link_to image_tag("btn-edit.png", :alt => "edit", :class => "marginL edit-button"), picture_path(picture) %>
           </div>
 
           <div id="block-bottom">

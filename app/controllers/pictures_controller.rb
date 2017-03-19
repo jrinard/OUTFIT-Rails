@@ -39,10 +39,10 @@ def create
    @user = current_user
    @picture = Picture.new(picture_params)
    if @picture.save
-     flash[:notice] = "Picture Saved!"
+     flash[:notice] = "Outfit Saved!"
      redirect_to pictures_path
    else
-    render :new, notice: 'There was an error.'
+    render :new, notice: 'There was an error saving your outfit. Please try again.'
    end
 end
 
@@ -55,10 +55,10 @@ end
 def update
   @picture = Picture.find(params[:id])
   if @picture.update(picture_params)
-    flash[:notice] = "Picture updated!"
+    flash[:notice] = "Outfit updated!"
     redirect_to pictures_path
   else
-    render :edit
+    render :edit, notice: 'There was an error updating your outfit. Please try again.'
   end
 end
 
