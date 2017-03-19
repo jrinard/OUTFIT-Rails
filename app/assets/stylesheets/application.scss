@@ -3,7 +3,7 @@
 
 // OVERALL
 html {
-  height: 120%;
+  height: 145%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -47,8 +47,6 @@ p {
   text-align: center;
 }
 
-
-
 .well {
   border-radius: 8px;
   max-width: 500px;
@@ -66,7 +64,10 @@ body {
   margin-right: -10px;
   background: linear-gradient(to bottom, #413f7a , #1680b1);
   min-height: 100%;
-  padding-bottom: 80px;
+  background: url("bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
 }
 
 .bg {
@@ -92,13 +93,6 @@ body {
   margin-right: 0;
 }
 
-// .container {
-//   margin-left: 0px;
-//   margin-right: 0px;
-//   width: 100%;
-//   padding: 0;
-// }
-
 //TOP NAVIGATION
 .navbar a:link {
   color: #000;
@@ -122,14 +116,6 @@ body {
   text-decoration: none;
 }
 
-// .nav {
-//   // font-size: 50px;
-//   width: 100%;
-//   // margin-left: -5px;
-//   // margin-right: 5px;
-//   padding-right: 20px;
-// }
-
 .navbar-custom {
   background-color: #fff;
   text-align: center;
@@ -139,8 +125,6 @@ body {
 
 .logo {
   font-size: 50px;
-
-  // margin-left: 0px;
   padding-bottom: 5px;
   max-height: 55px;
 }
@@ -150,8 +134,6 @@ body {
 }
 
 .user-nav-text {
-    // margin-left: 30px;
-    // padding: 20px;
     padding-top: 15px;
     float: left;
 }
@@ -185,7 +167,6 @@ a:link {
   text-align: center;
   position: fixed;
   bottom: 0;
-
   background: rgb(255, 255, 255); /* Fall-back for browsers that don'tsupport rgba */
   background: rgba(255, 255, 255, .8);
 }
@@ -194,14 +175,12 @@ a:link {
   padding: 0px 2px;
   -webkit-box-shadow: none !important;
    box-shadow: none  !important;
-
 }
 
 .btn2 {
   margin: 0 auto;
   padding: 8px;
 }
-
 
 // FORM TEXT
 .input-lg {
@@ -257,7 +236,6 @@ input[type=checkbox] {
   transform: scale(1.2);
   margin: 10px;
 }
-
 
 input[type="image"]
 {
@@ -580,7 +558,7 @@ input[type="image"]
 }
 
 .col-xs-12 {
-  padding: 5px 12px 5px 5px;
+  padding: 5px 15px 5px 5px;
 }
 
 // New Flexbox
@@ -589,25 +567,13 @@ input[type="image"]
   height: 300px;
   flex-direction: column;
   flex-wrap:  wrap;
-
 }
 
 .flex-block {
   // background-color: #000;
   width: 95%;
-  padding: 10px;
   margin: 0 auto;
   max-width: 525px;
-
-}
-
-.flex-block-pictures {
-  // background-color: #000;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 725px;
-  align-items: stretch;
-
 }
 
 .flex-container-events {
@@ -617,28 +583,20 @@ input[type="image"]
 }
 
 .flex-block-events {
-  // background-color: #000;
-  width: 95%;
-  padding: 10px;
+  width: 100%;
   margin: 0 auto;
   max-width: 525px;
 }
 
 .flex-container-big {
-    background-color: #000;
+  background-color: #000;
   display: flex;
   height: 70px;
-  // flex-direction: row;
-
   justify-content: center;
-
-
 }
-
 .flex-block-big {
   background-color: #fff;
   width: 100%;
   padding: 10px;
   margin: 0 auto;
-
 }
