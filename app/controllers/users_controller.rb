@@ -6,10 +6,15 @@ class UsersController < ApplicationController
   def destroy
     @user = User.find(params[:id])
     @pictures = @user.pictures
-    # @events = @user.events
-    # events = @user.events
 
     # Events are not destroyed yet
+    # @user.events.destroy_all
+    @user.events.update(:picture_id => nil)
+    if @user.events === nil
+
+    end
+
+
     if @user.pictures.destroy_all
        @user.destroy
        flash[:notice] = "User deleted!"

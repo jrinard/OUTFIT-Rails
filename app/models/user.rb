@@ -6,4 +6,5 @@ class User < ApplicationRecord
          has_many :pictures
          has_many :events, through: :pictures
         # has_many :events, through: :pictures, dependent: :destroy
+
 end

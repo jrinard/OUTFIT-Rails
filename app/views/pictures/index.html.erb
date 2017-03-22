@@ -4,10 +4,11 @@
 
     <h3><%= current_user.username %>'s Closet</h3>
 
+
     <% if @pictures.any? %>
       <% @pictures.each do |picture| %>
         <div class="col-xs-12 col-sm-12 col-md-12">
-          
+
           <div class="well">
             <%= image_tag picture.image, :class => "image-size img-responsive round" %>
 

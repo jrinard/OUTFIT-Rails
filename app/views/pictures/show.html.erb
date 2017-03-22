@@ -2,6 +2,10 @@
   <div class="flex-container">
     <div class="flex-block">
 
+<!-- Security check if user should be able to view picture details -->
+      <% if current_user.id === @picture.user_id%>
+
+
       <%= render "form-details" %>
 
       <div class="well">
@@ -85,6 +89,8 @@
             <% end %>
           <% end %>
       </div>
+
+          <% end %>
 
     </div><!-- flex-block end -->
   </div><!-- flex-container end -->
