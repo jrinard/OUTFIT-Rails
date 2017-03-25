@@ -3,5 +3,6 @@ env
 tmp
 public/system
 coverage
+.idea
 
 seeds.rb
