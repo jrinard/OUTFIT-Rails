@@ -12,24 +12,15 @@
 
   <div class="flex-container-big">
     <div class="flex-block-big">
-      <div class="col-xs-4">
-        <div class = "user-nav-text">
-          <% if current_user %>
-            <%= link_to current_user.username, edit_user_registration_path %>
-          <% end %>
-        </div>
-      </div>
-      <div class="col-xs-4">
+      <div class="col-xs-12">
         <div class="center">
           <%= link_to image_tag("logo.png", :class => "logo"), root_path %>
-        </div>
-      </div>
-      <div class="col-xs-4">
         <% if current_user %>
           <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
         <% else %>
           <%= link_to image_tag("menu2.png", :class => "pull-right"), :logout => "logout" %>
         <% end %>
+            </div>
       </div>
     </div>
   </div>
@@ -37,7 +28,8 @@
       <% if @showlogin === true %>
       <div class="menu">
         <% if current_user %>
-        <%= link_to "Logout", destroy_user_session_path, method: "delete" %>
+        <%= link_to "Logout", destroy_user_session_path, method: "delete" %> |
+        <%= link_to current_user.username, edit_user_registration_path %>
         <% else %>
         <%= link_to "Log-in", new_user_session_path %></a>
         <%= link_to "Signup", new_user_registration_path %></a>
