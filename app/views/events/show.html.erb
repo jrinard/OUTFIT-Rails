@@ -6,6 +6,7 @@
     <h3>Results</h3>
       <% if @photoArray.any? %>
         <% @photoArray.each do |picture| %>
+        <% if current_user.id === picture.user_id %> <!-- only shows events that current user owns -->
           <div class="col-xs-6">
             <div class="well well-small">
               <%= link_to image_tag(picture.image, :class => "img-responsive round"), picture_path(picture) %>
@@ -21,6 +22,7 @@
               </div>
             </div><!-- well end -->
           </div><!-- col end -->
+        <% end %>
         <% end %>
         <% else %>
           <p>There are no outfits with this name.</p>
