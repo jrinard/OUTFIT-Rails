@@ -10,12 +10,11 @@
           <% end %>
         </div>
         <div class="well center">
-          <%= form_tag(show_path, method: 'post', class:'') do %>
-          <%= date_field :date, "", class: "form-control", placeholder: "Search by Date as yyyy-dd-mm" %><br>
+          <%= form_tag(show_path, method: 'post', class:'center') do %>
+          <%= date_field :date, "", class: "form-control center", placeholder: "Search by Date as yyyy-dd-mm" %><br>
             <button type="submit" class="btn-lg btn-primary">Search</button>
           <% end %>
         </div>
-
     </div><!-- flex-block end -->
   </div><!-- flex-container end -->
 </div><!-- col end -->
