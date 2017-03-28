@@ -7,25 +7,25 @@
 <div class="admin-block">
   Total Users: <span class = "solid" ><%= @totalusercount %></span>
 </div>
-
+    <div class="admin-block">
   <% if @users.any? %>
     <% @users.each do |user| %>
-    <div class="admin-block">
 
   <% if user.admin %>
-      <h4>Admin</h4>
+      <div class="admin-title">Admin</div>
   <% end %>
       Name: <span class = "solid" ><%= user.username %></span>  |
       Email:  <span class = "solid" ><%= user.email %></span>  |
       Joined: <span class = "solid" ><%= user.created_at.strftime("%b %d, %Y") %></span>  |
-      Total Pictures: <span class = "solid" ><%= user.pictures.count %></span> |
-      Total Events: <span class = "solid" ><%= user.events.count %></span> <br>
+      Pictures: <span class = "solid" ><%= user.pictures.count %></span> |
+      Events: <span class = "solid" ><%= user.events.count %></span> <br>
       <%= link_to "Delete User", admin_destroy_user_path(user), method: :delete, data: { confirm: "You sure?" } %>
-    </div><br>
+      <hr>
     <% end %>
   <% end %>
   <% else %>
     <h3>You do not have access. Please sign in.</h3>
   <% end %>
+</div>
 </div>
 </div>
