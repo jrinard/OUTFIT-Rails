@@ -6,21 +6,19 @@
         <h3 class="center">Events</h3>
         <% @events.each do |event| %>
           <div class="well">
-            <div class="col-xs-6">
-              <div class="btn event-text-larger">
-                <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
-              </div><!-- teal end -->
-            </div>
-            <div class="col-xs-3">
-              <div class="blue btn2">
-                <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
-              </div><br><!-- blue end -->
-            </div>
-            <div class="col-xs-3">
-              <div class="pink btn2 shift-up">
-                <%= link_to "Delete", picture_event_path(event.picture_id, event.id), :class => "btn", :data => {:confirm => "Are you sure?",:method => "delete"}%>
-              </div><br> <!-- pink end -->
-            </div> <br><br>
+            <div class="flex-container-events">
+              <div class="flex-block-events">
+                <div class="btn event-text">
+                  <%= link_to event.name, picture_event_path(event.picture_id, event.id), :class => "btn-lg" %>
+                </div><!-- event end -->
+                <div class="blue btn">
+                  <%= link_to "Rename", edit_picture_event_path(event.picture_id, event.id), :class => "btn" %> <br>
+                </div><!-- blue end -->
+                <div class="pink btn">
+                  <%= link_to "Delete", picture_event_path(event.picture_id, event), :class => "btn", :id => "delete-test", :data => {:confirm => "Are you sure?",:method => "delete"}%>
+                </div><br><!-- pink end -->
+              </div><!-- flexbox-events  end -->
+            </div><!-- flex-events container  end -->
           </div><!-- well end1 -->
         <% end %>
         <% else %>
